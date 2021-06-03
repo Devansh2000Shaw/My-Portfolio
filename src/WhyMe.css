@@ -1,0 +1,65 @@
+#Whyme
+{
+    /* margin-bottom: 100px; */
+    background-image: url('gif11.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+body
+{
+    font-family: sans-serif;
+}
+.why
+{
+    /* color: black; */
+    /* text-shadow: 2px 5px 5px #24caac; */
+    font-size: 48px;
+    font-weight: bold;
+    font-family: sans-serif;
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    background-clip: text;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    -webkit-text-fill-color: transparent;
+}
+.whyme
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.whyme1 , .whyme2, .whyme3
+{
+    color: white;
+    background-color: rgb(29, 28, 28);
+    height: 220px;
+    width: 317px;
+    margin-right: 2%;
+    padding: 20px;
+    margin-bottom: 4%;
+}
+.whyme1:hover
+{
+    background-color: #EAA023;
+    transition: 1s ease;
+}
+.whyme2:hover
+{
+    background-color: #E96E13;
+    transition: 1s ease;
+}
+.whyme3:hover
+{
+    background-color: #24CAAC;
+    transition: 1s ease;
+}
+
+.whyme-content
+{
+    margin-top: 15px;
+    font-size: 16px;
+    color: rgb(233, 231, 231);
+    font-family: sans-serif;
+}

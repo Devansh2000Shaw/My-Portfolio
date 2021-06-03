@@ -1,0 +1,79 @@
+body
+{
+    background-color: black;
+}
+.foot
+{
+    /* color: black; */
+    /* text-shadow: 2px 5px 5px #24caac; */
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    background-clip: text;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    -webkit-text-fill-color: transparent;
+}
+.footer-page
+{
+    background-color: #2f363e;
+}
+.container
+{
+    color: white;
+    /* height: 200px; */
+    text-align: center;
+}
+
+.footer-contact
+{
+    /* float: right; */
+    text-align: center;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+.footer-about
+{
+    margin-top: 20px;
+}
+
+.fa-instagram, .fa-linkedin-square, .fa-github, .fa-whatsapp
+{
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid transparent;
+    height: 35px;
+    width: 35px;
+    color: white;
+    line-height: 35px;
+    text-align: center;
+    font-size: 18px;
+    transition: all 0.5s ease;
+    border-radius: 50%;
+}
+
+.fa-instagram:hover
+{
+    color: #24CAAC;
+}
+
+.fa-linkedin-square:hover
+{
+    color: #24CAAC;
+}
+
+.fa-whatsapp:hover
+{
+    color: #24CAAC;
+}
+
+.fa-github:hover
+{
+    color: #24CAAC;
+}
+
+
