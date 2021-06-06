@@ -211,7 +211,7 @@
 #popup_top_image1{
    width: 100%;
    height: 200px;
-   background-image: url('geekbot_dark.png');
+   background-image: url('../img/geekbot_dark.png');
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -220,7 +220,7 @@
 #popup_top_image2{
    width: 100%;
    height: 200px;
-   background-image: url('GFGKIITWebsitePoster.png');
+   background-image: url('../img/GFGKIITWebsitePoster.png');
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -305,8 +305,8 @@
 .popup-context{
    margin-top: 120px;
    padding: 25px 20px 8px 20px;
-   font-size: 14px;
-   line-height:16px;
+   font-size: 18px;
+   line-height:18px;
    font-weight: 100!important;
 }
 .popup_bottom{
@@ -375,7 +375,7 @@
 
 #project
 {
-   background-image: url('gif7.gif');
+   background-image: url('../img/gif7.gif');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

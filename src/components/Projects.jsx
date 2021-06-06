@@ -1,6 +1,6 @@
 import React from 'react';
 import img from './skill4.png';
-// import './Projects.css';
+// import './assets/css/Projects.css';
 
 function Recommendation()
 {

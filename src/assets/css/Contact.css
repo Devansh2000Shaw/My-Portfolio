@@ -162,7 +162,7 @@ input[type="text"]:hover
 
 .contact-us {
     padding: 160px 0px;
-    background-image: url('gif23.gif');
+    background-image: url('../img/gif23.gif');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;

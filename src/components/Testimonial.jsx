@@ -1,7 +1,9 @@
 import React from 'react';
-import './Testimonial.css';
-// import './Recommendation.css'
-// import $ from 'jquery';
+import comment_1 from '../assets/img/comment_1.png';
+import comment_2 from '../assets/img/comment_2.png';
+import comment_3 from '../assets/img/comment_3.png';
+import '../assets/css/Testimonial.css';
+// import './assets/css/Recommendation.css';
 
 
 function Testimonial(){
@@ -24,7 +26,7 @@ function Testimonial(){
                 <div class="item active">
                   <div class="carousel-caption testimonial-caption-style">
                     <div class="carousel-testimonial-img p-1 rounded-circle m-auto">
-                        <img class="" src="comment_2.png" alt="First slide" style={{textAlign: "center"}}/>
+                        <img class="" src={comment_2} alt="First slide" style={{textAlign: "center"}}/>
                     </div>
                     <p style = {{color: "white"}}> <i class="fa fa-quote-left" aria-hidden="true" style = {{color: "#EAA023", marginRight: "5px"}}></i>
                             Devansh is very proficient in his design skills and innovative thinking capabilities makes him ever better from others.
@@ -40,7 +42,7 @@ function Testimonial(){
                 <div class="item">
                   <div class="carousel-caption testimonial-caption-style">
                     <div class="carousel-testimonial-img p-1 rounded-circle m-auto">
-                        <img class="" src="comment_1.png" alt="First slide" style={{textAlign: "center"}}/>
+                        <img class="" src={comment_1} alt="First slide" style={{textAlign: "center"}}/>
                       </div>
                       <p style = {{color: "white"}}> <i class="fa fa-quote-left" aria-hidden="true" style = {{color: "#EAA023", marginRight: "5px"}}></i>
                             Devansh is very passionate about his Web Development skills. He is very innovative and creative person.
@@ -56,7 +58,7 @@ function Testimonial(){
                 <div class="item">
                   <div class="carousel-caption testimonial-caption-style">
                     <div class="carousel-testimonial-img p-1 rounded-circle m-auto">
-                        <img class="" src="comment_3.png" alt="First slide" style={{textAlign: "center"}}/>
+                        <img class="" src={comment_3} alt="First slide" style={{textAlign: "center"}}/>
                       </div>
                       <p style = {{color: "white"}}> <i class="fa fa-quote-left" aria-hidden="true" style = {{color: "#EAA023", marginRight: "5px"}}></i>
                             Devansh is an ingenious boy. He is amazing in front-end Web development.

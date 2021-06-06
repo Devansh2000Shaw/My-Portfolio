@@ -1,5 +1,8 @@
 import React from 'react';
-import './Intro.css';
+import '../assets/css/Intro.css';
+import myself from '../assets/img/myself.jpeg';
+import Image from '../assets/img/Image.png';
+import Myself from '../assets/img/Myself1-removebg.png';
 
 function Intro()
 {
@@ -41,21 +44,21 @@ function Intro()
                                 </ol>
                                 <div className="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="Myself1-removebg.png" height="500px" width="150px" alt=""/>
+                                    <img src={Myself} height="500px" width="150px" alt=""/>
                                     <div className="carousel-caption d-none d-md-block">
                                         <h5></h5>
                                         <p></p>
                                     </div>
                                 </div>
                                 <div className="carousel-item">
-                                    <img src="Image.png" height="500px" width="150px" alt=""/>
+                                    <img src={Image} height="500px" width="150px" alt=""/>
                                     <div className="carousel-caption d-none d-md-block">
                                         <h5></h5>
                                         <p></p>
                                     </div>
                                 </div>
                                 <div className="carousel-item">
-                                    <img src="myself.jpeg" height="500px" width="150px" alt=""/>
+                                    <img src={myself} height="500px" width="150px" alt=""/>
                                     <div className="carousel-caption d-none d-md-block">
                                         <h5></h5>
                                         <p></p>
