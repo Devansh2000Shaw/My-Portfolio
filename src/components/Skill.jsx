@@ -1,5 +1,5 @@
 import React from 'react';
-import './skill.css';
+import '../assets/css/skill.css';
 
 function Skill()
 {

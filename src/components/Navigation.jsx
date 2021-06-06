@@ -1,5 +1,5 @@
 import React from 'react';
-import './Navigation.css';
+import '../assets/css/Navigation.css';
 
 document.addEventListener('DOMContentLoaded',function(event){
     var dataText = [ "Frontend Web Developer.", "Programmer.", "Data Science Enthusiast.", ""];

@@ -11,7 +11,7 @@
         {
             background-size: cover;
             /* background-image: url(BgReduced.jpg); */
-            background-image: url('back.gif');
+            background-image: url('../img/back.gif');
             background-repeat: no-repeat;
             /* width: 100%;
             height: calc(100vh); */

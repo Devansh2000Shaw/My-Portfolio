@@ -217,7 +217,7 @@ tours {
 
 #intro
 {
-  background-image: url('gif25.gif');
+  background-image: url('../img/gif25.gif');
   background-size: cover;
   background-repeat: no-repeat;
   /* background-attachment: fixed; */

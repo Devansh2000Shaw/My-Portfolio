@@ -1,5 +1,5 @@
 import React from 'react';
-import './Contact.css';
+import '../assets/css/Contact.css';
 
 function Contact()
 {
@@ -64,9 +64,9 @@ function Contact()
 <div id="contact" class="contact-us section">
         <div class="container">
           <div class="row">
-            <div class="col-lg-6 align-self-center wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.25s" style={{marginTop: "-125px"}}>
+            <div class="col-lg-6 align-self-center wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.25s" style={{marginTop: "-75px"}}>
               <p className = "foot">About</p>
-              <p style = {{color: "white", textAlign: "center",paddingBottom: "20px"}}>A passionate and self-motivated individual, enthusiastically keen to learn and explore. </p>
+              <p style = {{color: "white", textAlign: "center",paddingBottom: "20px", fontSize: "18px"}}>A passionate and self-motivated individual, enthusiastically keen to learn and explore. </p>
               <div class="footer-item footer-contact">
                     <p style = {{fontSize: "18.72px"}}>CONTACT  ME</p>
                     <p style = {{marginBottom: "0px"}}><i class="fa fa-map-marker" aria-hidden="true"></i> Kolkata, India</p>
@@ -80,7 +80,7 @@ function Contact()
                 <div class="footer-item footer-more">
                     <p style = {{fontSize: "20px", margin: "0px"}}>© Devansh Shaw <hr/> Made with ❤️ using 🖌️ Html, CSS &amp; Reactjs💻 </p>
                 </div>
-            </div>
+            </div><br /><br />
             <div class="col-lg-6 wow animate__animated animate__fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.25s" style={{marginTop: "20px"}}>
               <form id="contact" action="" method="post">
                 <div class="row">
@@ -118,8 +118,6 @@ function Contact()
           </div>
         </div>
       </div>
-
-
         </div>
     );
 }

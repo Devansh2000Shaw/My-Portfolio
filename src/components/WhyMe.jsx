@@ -1,5 +1,5 @@
 import React from 'react';
-import './WhyMe.css';
+import '../assets/css/WhyMe.css';
 import BrushIcon from '@material-ui/icons/Brush';
 import LaptopIcon from '@material-ui/icons/Laptop';
 import CodeIcon from '@material-ui/icons/Code';
