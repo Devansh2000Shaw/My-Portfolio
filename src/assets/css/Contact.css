@@ -231,7 +231,7 @@ input[type="text"]:hover
     width: 100%;
     height: 46px;
     border-radius: 33px;
-    background-color: #d1f3ff;
+    background-color: #d0fcf4;
     border: none;
     outline: none;
     font-size: 15px;
@@ -253,7 +253,7 @@ input[type="text"]:hover
     min-height: 140px;
     height: 140px;
     border-radius: 20px;
-    background-color: #d1f3ff;
+    background-color: #d0fcf4;
     border: none;
     outline: none;
     font-size: 15px;
@@ -269,10 +269,12 @@ input[type="text"]:hover
   
   form#contact button {
     display: inline-block;
-    background-color: #03a4ed;
+    font-weight: bold;
+    color: #24caac;
+    background-color: black;
+    border-color: #24caac;
+    transition: 0.2s;
     font-size: 15px;
-    font-weight: 400;
-    color: #fff;
     text-transform: capitalize;
     padding: 12px 25px;
     border-radius: 23px;
@@ -283,5 +285,7 @@ input[type="text"]:hover
   }
   
   form#contact button:hover {
-    background-color: #fe3f40;
+    color:  #24caac;
+    background: black;
+    box-shadow: 0 0 20px #24caac, 0 0 30px #24caac, 0 0 60px #24caac;
   }

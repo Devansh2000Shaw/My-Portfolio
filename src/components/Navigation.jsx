@@ -57,7 +57,7 @@ function Navigation()
                     <form action="#">
                     <input type = "submit" id = "submit" value = "Know More" href = "#intro"/>
                     {/* <a href = "#intro" id = "submit" class = "button">Know More</a> */}
-                    <a href = "https://in.docworkspace.com/d/sIHbG3PotwfzuhAY" id = "cv" class = "button">Download CV</a>
+                    <a target = "_blank" href = "https://in.docworkspace.com/d/sIHbG3PotwfzuhAY" id = "cv" class = "button">Download CV</a>
                     </form>
                 </div>
             </nav>

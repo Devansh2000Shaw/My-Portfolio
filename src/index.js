@@ -12,6 +12,7 @@ import Experiences from './components/Experiences';
 // import NavBar from './components/NavBar';
 import Recommendation from './components/Recommendation';
 import Testimonial from './components/Testimonial';
+// import Navbar from './components/Navbar';
 // import Final from './components/Final';
 // const { createElement } = require('react');
 // var React = require('react');

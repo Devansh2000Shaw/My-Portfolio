@@ -211,9 +211,19 @@ tours {
 
 .primary-btn.border-btn {
 	background: transparent;
-	border: 2px solid #EAA023;
+	border: 1px solid #EAA023;
+	border-radius: 10px;
 	color: white;
 }
+
+.primary-btn:hover{
+	-webkit-box-shadow: 0px 0px 20px 0px #EAA023;
+   -moz-box-shadow: 0px 0px 20px 0px #EAA023;
+   box-shadow: 0px 0px 20px 0px #EAA023;
+   transform: translateX(10px);
+   transition: all 0.6s ease-in-out;
+}
+
 
 #intro
 {

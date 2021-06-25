@@ -1,8 +1,11 @@
 import React from 'react';
 import '../assets/css/Intro.css';
-import myself from '../assets/img/myself.jpeg';
-import Image from '../assets/img/Image.png';
-import Myself from '../assets/img/Myself1-removebg.png';
+// import myself from '../assets/img/myself.jpeg';
+// import Image from '../assets/img/Image.png';
+// import Myself from '../assets/img/Myself1-removebg.png';
+import myself from '../assets/img/Programming.gif';
+import Image from '../assets/img/Version control.gif';
+import Myself from '../assets/img/Developer activity.gif';
 
 function Intro()
 {

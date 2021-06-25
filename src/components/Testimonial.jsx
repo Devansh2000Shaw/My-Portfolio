@@ -34,9 +34,9 @@ function Testimonial(){
                             <i class="fa fa-quote-right" aria-hidden="true" style = {{color: "#EAA023", marginLeft: "5px"}}></i>
                     </p>
                     <p class="testimonial-authors">Person 1</p>
-                    <a href="https://www.linkedin.com/in/jrabhishek/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                    {/* <a href="https://www.linkedin.com/in/jrabhishek/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
                     <a href="https://www.instagram.com/__abhishekraj/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                    <a href="https://github.com/jrabhishek"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    <a href="https://github.com/jrabhishek"><i class="fa fa-github" aria-hidden="true"></i></a> */}
                   </div><br />
                 </div>
                 <div class="item">
@@ -50,9 +50,9 @@ function Testimonial(){
                             <i class="fa fa-quote-right" aria-hidden="true" style = {{color: "#EAA023", marginLeft: "5px"}}></i>
                       </p>
                     <p class="testimonial-authors">Person 2</p>
-                    <a href="https://www.linkedin.com/in/jrabhishek/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                    {/* <a href="https://www.linkedin.com/in/jrabhishek/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
                     <a href="https://www.instagram.com/__abhishekraj/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                    <a href="https://github.com/jrabhishek"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    <a href="https://github.com/jrabhishek"><i class="fa fa-github" aria-hidden="true"></i></a> */}
                   </div><br />
                 </div>
                 <div class="item">
@@ -67,9 +67,9 @@ function Testimonial(){
                             <i class="fa fa-quote-right" aria-hidden="true" style = {{color: "#EAA023", marginLeft: "5px"}}></i>
                       </p>
                     <p class="testimonial-authors">Person 3</p>
-                    <a href="https://www.linkedin.com/in/jrabhishek/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                    {/* <a href="https://www.linkedin.com/in/jrabhishek/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
                     <a href="https://www.instagram.com/__abhishekraj/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                    <a href="https://github.com/jrabhishek"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    <a href="https://github.com/jrabhishek"><i class="fa fa-github" aria-hidden="true"></i></a> */}
                   </div><br />
                 </div>
               </div>
