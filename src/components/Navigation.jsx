@@ -2,7 +2,7 @@ import React from 'react';
 import '../assets/css/Navigation.css';
 
 document.addEventListener('DOMContentLoaded',function(event){
-    var dataText = [ "Frontend Web Developer.", "Programmer.", "Data Science Enthusiast.", ""];
+    var dataText = [ "MERN Developer.", "Programmer.", "Flutter Developer.", "Open source Contributor.", "Data Science Enthusiast.", ""];
     function typeWriter(text, i, fnCallback) {
 
       if (i < (text.length)) {

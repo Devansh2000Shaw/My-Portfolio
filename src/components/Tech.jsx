@@ -2,7 +2,7 @@ import React from 'react';
 import C from '../assets/icons/C.webp';
 import CPLUS from '../assets/icons/C++.png';
 import JAVA from '../assets/icons/Java.png';
-import PYTHON from '../assets/icons/Pthon.png';
+import PYTHON from '../assets/icons/python.png';
 import HTML from '../assets/icons/html.png';
 import CSS from '../assets/icons/css.png';
 import SASS from '../assets/icons/sass.png';
