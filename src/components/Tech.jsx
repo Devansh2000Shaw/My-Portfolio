@@ -1,7 +1,7 @@
 import React from 'react';
 import C from '../assets/icons/C.webp';
 import CPLUS from '../assets/icons/C++.png';
-import JAVA from '../assets/icons/Java.jpg';
+import JAVA from '../assets/icons/Java.png';
 import PYTHON from '../assets/icons/Pthon.png';
 import HTML from '../assets/icons/html.png';
 import CSS from '../assets/icons/css.png';
@@ -16,7 +16,7 @@ import MYSQL from '../assets/icons/mysql.png';
 import FIREBASE from '../assets/icons/firebase.png';
 import ADOBEXD from '../assets/icons/adobeXD.png';
 import GIT from '../assets/icons/git.png';
-import EXPRESS from '../assets/icons/expressjs.png';
+import EXPRESS from '../assets/icons/expressjs1.png';
 import POSTMAN from '../assets/icons/postman.png';
 import NETLIFY from '../assets/icons/netlify.png';
 import '../assets/css/tech.css';
