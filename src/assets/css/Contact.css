@@ -282,10 +282,55 @@ input[type="text"]:hover
     border: none;
     outline: none;
     transition: all .3s;
+    text-align: center;
   }
   
   form#contact button:hover {
     color:  #24caac;
     background: black;
     box-shadow: 0 0 20px #24caac, 0 0 30px #24caac, 0 0 60px #24caac;
+  }
+  .footer-contact
+  {
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+  }
+  .fa-linkedin-square, .fa-github, .fa-instagram, .fa-whatsapp
+  {
+    margin-right: 25px;
+    color: black;
+    border: 1px solid white;
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 25px;
+    background-color: white;
+  }
+  .fa-linkedin-square:hover
+  {
+    color:  #24caac;
+    background: black;
+    box-shadow: 0 0 20px #24caac, 0 0 30px #24caac, 0 0 60px #24caac;
+    transition: 0.5s ease;
+  }
+  .fa-github:hover
+  {
+    color:  #24caac;
+    background: black;
+    box-shadow: 0 0 20px #24caac, 0 0 30px #24caac, 0 0 60px #24caac;
+    transition: 0.5s ease;
+  }
+  .fa-instagram:hover
+  {
+    color:  #24caac;
+    background: black;
+    box-shadow: 0 0 20px #24caac, 0 0 30px #24caac, 0 0 60px #24caac;
+    transition: 0.5s ease;
+  }
+  .fa-whatsapp:hover
+  {
+    color:  #24caac;
+    background: black;
+    box-shadow: 0 0 20px #24caac, 0 0 30px #24caac, 0 0 60px #24caac;
+    transition: 0.5s ease;
   }

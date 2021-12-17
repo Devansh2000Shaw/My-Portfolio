@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded',function(event){
 function Navigation()
 {
     return(
-        <div>
+        <div className = "Home">
             <nav>
                 <input type="checkbox" id = "check"/>
                 <label for = "check" class="checkbtn">

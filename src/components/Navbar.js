@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import logo from './resources/logo-3.svg';
-// import '../assets/css/navbar.css';
+import '../assets/css/navbar.css';
 
 // import { Toggle } from '../ToggleSwitch'
 
@@ -11,18 +11,16 @@ class Navbar extends Component {
       const menu = document.querySelector(".menu-list");
       const menuBtn = document.getElementById("burger-menu");
    
-      const logo= document.querySelector(".gfg-logo");
+      // const logo= document.querySelector(".gfg-logo");
       // var listItem=menu.querySelectorAll(".list-item");
       window.onscroll = ()=>{
          if (window.scrollY > 20){
             navbar.classList.add("sticky");
-            logo.classList.add("make-smaller");
-            // listItem.style.color="#fefefe";
+            // logo.classList.add("make-smaller");
          }
          else{
             navbar.classList.remove("sticky");
-            logo.classList.remove("make-smaller");
-            // listItem.style.color="#343434";
+            // logo.classList.remove("make-smaller");
          }
       }
 

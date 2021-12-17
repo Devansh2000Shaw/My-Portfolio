@@ -9,13 +9,13 @@
         }
         body
         {
+            font-family: montserrat;
+        }
+        .Home{
             background-size: cover;
             /* background-image: url(BgReduced.jpg); */
             background-image: url('../img/back.gif');
             background-repeat: no-repeat;
-            /* width: 100%;
-            height: calc(100vh); */
-            font-family: montserrat;
         }
         .under
         {
@@ -184,6 +184,9 @@
                 nav ul li a
                 {
                     font-size: 16px;
+                }
+                nav ul li a:visited{
+                    color: #24CAAC;
                 }
             }
             @media screen and (max-width: 1252px)

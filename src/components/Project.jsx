@@ -48,33 +48,6 @@ function Project()
     return(
         <div id = "project" style = {{marginBottom: "-20px"}}>
             <p className = "why">Projects</p>
-            {/* <div class="card mb-3" style={{width: "96%", marginLeft: "2%", paddingTop: "10px", paddingBottom: "10px", paddingLeft: "10px", backgroundColor: "black", color: "white"}}>
-                <div class="row g-0">
-                <div class="col-md-4">
-                    <img src="1.jpg" alt = "" style = {{marginLeft: "20px", marginRight: "20px", width: "300px", height: "200px", alt: "Random"}}/>
-                </div>
-                <div class="col-md-8">
-                    <div class="card-body">
-                    <h3 class="card-title">My Experience</h3>
-                    <p class="card-text">I had amazing learning experinece with 30 Days of Web-Development,Entire Team was Very Helpful and Supportive.</p>
-                    </div>
-                </div>
-                </div>
-            </div>
-            <div class="card mb-3" style={{width: "96%", marginLeft: "2%", paddingTop: "10px", paddingBottom: "10px", paddingLeft: "10px", backgroundColor: "black", color: "white"}}>
-                <div class="row g-0">
-                <div class="col-md-4">
-                    <img src="4.jpg" alt = "" style = {{marginLeft: "20px", marginRight: "20px", width: "300px", height: "200px", alt: "Random"}}/>
-                </div>
-                <div class="col-md-8">
-                    <div class="card-body">
-                    <h3 class="card-title">About Members and Community</h3>
-                    <p class="card-text"> 30 Days of Web Development was really helpful !! I have learned a lot through this program,I grasped new concepts and enjoyed this learning journey a lot.I got to see the practical applications of web-development,am really looking forward to apply these learnings in the near future.
-                    </p>
-                    </div>
-                </div>
-                </div>
-            </div> */}
             <div className="row">
                 <div className="image1 animate__animated animate__backInUp"  id = "click1">
                     <img alt="images" src={img1} onClick={displayFlex1} className="image1" />
