@@ -2,6 +2,7 @@ import React from 'react';
 import '../assets/css/Projects.css';
 import img1 from '../assets/img/img 1.jpeg';
 import img3 from '../assets/img/img 3.jpeg';
+import img2 from '../assets/img/img 3.jpeg';
 import cross from '../assets/img/cross.png';
 import html from '../assets/img/html.png';
 import css from '../assets/img/css.png';
@@ -10,7 +11,7 @@ import react from '../assets/img/react.png';
 import javascript from '../assets/img/javaScript.png';
 import python from '../assets/img/phython.png';
 
-function displayFlex1()
+            function displayFlex1()
             {
                 document.querySelector('.bg-modal1').style.display = 'flex';
             }

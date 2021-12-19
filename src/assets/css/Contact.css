@@ -334,3 +334,40 @@ input[type="text"]:hover
     box-shadow: 0 0 20px #24caac, 0 0 30px #24caac, 0 0 60px #24caac;
     transition: 0.5s ease;
   }
+
+  #back-top
+  {
+    background: #24caac;
+    height:50px;width:50px;
+    right:31px;bottom:18px;
+    position:fixed;
+    color: black;
+    font-size:25px;
+    font-weight: bold;
+    text-align:center;
+    border-radius:50%;
+    line-height:48px;
+    border:2px solid transparent;
+    box-shadow:0 0 10px 3px rgba(108,98,98,0.2)
+  }
+  .fa-angle-double-up
+  {
+    color: black;
+    font-size: 25px;
+  }
+  @media (max-width: 575px)
+  {
+    #scrollUp,#back-top
+    {
+      right:16px
+    }
+  }
+  #scrollUp a i,#back-top a i
+  {
+    display:block;
+    line-height:50px
+  }
+  #scrollUp:hover
+  {
+    color:#fff
+  }

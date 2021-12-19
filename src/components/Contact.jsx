@@ -44,7 +44,7 @@ function Contact()
                     </div>
         </div> */}
 
-<div id="contact" className="contact-us section">
+      <div id="contact" className="contact-us section">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 align-self-center wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.25s" style={{marginTop: "-75px"}}>
@@ -101,6 +101,12 @@ function Contact()
           </div>
         </div>
       </div>
+
+      {/* Scroll up button */}
+      <div id="back-top" >
+          <a title="Go to Top" href="#Hero"><i class="fa fa-angle-double-up"></i></a>
+      </div>
+
         </div>
     );
 }

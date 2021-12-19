@@ -12,7 +12,7 @@ function Experiences(){
                         <p>My Resume</p>
                         <h2>Working Experience</h2>
                     </header> */}
-                    <div className="timeline" style={{color: "black"}}>
+                    <div className="timeline" style={{color: "rgb(29, 28, 28)"}}>
                         <div className="timeline-item left wow animate__animated animate__slideInLeft" data-wow-delay="0.1s">
                             <div className="timeline-text">
                                 <div className="timeline-date">2045 - 2050</div>
