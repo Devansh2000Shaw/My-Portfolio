@@ -35,7 +35,7 @@
    /* float: left; */
    width: 400px;
    height: 300px;
-   margin-top: 10px;
+   margin-top: 50px;
    margin-left: 10%;
    border-radius: 10px;
    margin-bottom: 10%;
@@ -55,8 +55,9 @@
    width: 400px;
    height: 300px;
    margin-left: 10%;
+   margin-top: -20px;
    border-radius: 10px;
-   margin-bottom: 7%;
+   margin-bottom: 3%;
    transition: 1s;
    z-index: 1;
    position: relative;
@@ -72,7 +73,7 @@
    /* float: left; */
    width: 400px;
    height: 300px;
-   margin-top: 10px; /* -8% */
+   margin-top: -10px; /* -8% */
    margin-left: 10%;
    margin-bottom: 10%;
    border-radius: 10px;
@@ -89,7 +90,7 @@
 
 .image4 {
    float: left;
-   margin-top: -15%;
+   margin-top: -80px;
    width: 400px;
    height: 300px;
    margin-left: 10%;
@@ -203,9 +204,10 @@
 .slogan_project{
    font-size: 30px;
    margin-top: 10px;
-   margin-bottom: 50px;
+   margin-bottom: -50px;
    font-weight: 700;
    margin-left: 13%;
+   color: white;
 }
 .project_popup_detail{
    font-size: 18px;
@@ -338,6 +340,10 @@
 }
 
 @media screen and (max-width: 800px){
+   .slogan_project{
+      text-align: center;
+      margin : 0;
+   }
    .projects_header_slogan{
        top:130px;
        font-size: 21px;

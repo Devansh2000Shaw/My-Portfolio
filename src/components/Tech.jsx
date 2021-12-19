@@ -14,7 +14,6 @@ import REACT from '../assets/icons/react.png';
 import MONGODB from '../assets/icons/mongodb.png';
 import MYSQL from '../assets/icons/mysql.png';
 import FIREBASE from '../assets/icons/firebase.png';
-import ADOBEXD from '../assets/icons/adobeXD.png';
 import GIT from '../assets/icons/git.png';
 import EXPRESS from '../assets/icons/expressjs1.png';
 import POSTMAN from '../assets/icons/postman.png';
