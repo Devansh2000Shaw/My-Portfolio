@@ -10,6 +10,7 @@ import Experiences from './components/Experiences';
 // import NavBar from './components/NavBar';
 // import Recommendation from './components/Recommendation';
 import Testimonial from './components/Testimonial';
+import Education from './components/Education';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Navbar from './components/Navbar'
@@ -27,6 +28,7 @@ import Nav from './components/Nav'
       {/* <Skill/> */}
       <Experiences/>
       <Project/>
+      <Education/>
       {/* <Recommendation/> */}
       <Testimonial/>
       <Contact/>
