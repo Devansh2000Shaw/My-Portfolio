@@ -4,7 +4,7 @@ function Developer()
 {
     return(
         <div id="recommendation">
-            <p style = {{marginBottom: "50px", marginTop: "600px"}} class = "skill">Recommendations</p>
+            <p style = {{marginBottom: "50px", marginTop: "600px"}} className = "skill">Recommendations</p>
             <div className="container" style = {{marginTop: "100px", backgroundColor: "black"}}>
                 
             </div>

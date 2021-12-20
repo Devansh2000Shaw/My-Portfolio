@@ -11,7 +11,8 @@ function Intro()
 {
     return(
         <div  id = "intro">
-            <p class="why"> Intro </p>
+            <p class="why"> About Me </p>
+            <br /><br />
             {/* <div class = "intro">
                 <img src="image.png" class = "myself" alt="Myself"/>
                 <p class = "description">I am Devansh Shaw. Currently, I am pursuing Computer Science Engineering(CSE) from Kalinga Institute of Industrial Technology. 

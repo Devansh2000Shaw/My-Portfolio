@@ -5,9 +5,7 @@ function Contact()
 {
     return(
         <div>
-            <div id = "Contact">
-                <p className = "why">Contact Us</p>
-            </div>
+            <p className = "why" id = "Contact" style={{marginTop: "15px", marginBottom: "-55px"}}>Contact Us</p>
             {/* <div className="contact wow fadeInUp" data-wow-delay="0.1s" id="contact">
                     <div className="container-fluid">
                         <div className="container">
@@ -47,11 +45,11 @@ function Contact()
       <div id="contact" className="contact-us section">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 align-self-center wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.25s" style={{marginTop: "-75px"}}>
-              <p className = "foot" style = {{fontSize: "20px", color: "#24acac", textAlign: "center"}}>About</p>
+            <div className="col-lg-6 align-self-center wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.25s" style={{marginTop: "-40px"}}>
+              <p className = "foot" style = {{fontSize: "20px", color: "#24acac", textAlign: "center"}}>ABOUT</p>
               <p style = {{color: "white", textAlign: "center",paddingBottom: "20px", fontSize: "18px"}}>A passionate and self-motivated individual, enthusiastically keen to learn and explore. </p>
               <div className="footer-item footer-contact">
-                    <p style = {{fontSize: "17px", color: "#24acac"}}>CONTACT  ME</p>
+                    <p style = {{fontSize: "20px", color: "#24acac"}}>CONTACT  ME</p>
                     <p style = {{marginBottom: "0px", color: "white", fontSize: "16px"}}><i className="fa fa-map-marker" aria-hidden="true"></i> Kolkata, India</p>
                     <p style = {{marginBottom: "0px", color: "white", fontSize: "16px"}}><i className="fa fa-envelope" aria-hidden="true"></i> akashshaw8783@gmail.com</p>
                     <p style = {{marginBottom: "0px", color: "white", fontSize: "16px"}}><i className="fa fa-phone" aria-hidden="true"></i> +91 6290502415</p><br/>
@@ -60,10 +58,10 @@ function Contact()
                     <a href="https://github.com/Devansh2000Shaw"><i className="fa fa-github" aria-hidden="true"></i></a>
                     <a href="tel:6290502415"><i className="fa fa-whatsapp" aria-hidden="true"></i></a>
                 </div>
-                <div className="footer-item footer-more">
-                    <p style = {{fontSize: "20px", margin: "0px", textAlign: "center", marginTop: "20px", color: "white"}}>© Made by Devansh Shaw | All Rights Reserved<hr/> Made with ❤️ using 🖌️ Html, CSS &amp; Reactjs💻 </p>
+                <div className="footer-item footer-more made" >
+                    <p style = {{fontSize: "20px", textAlign: "center", marginTop: "20px",  color: "white"}}>© Made by Devansh Shaw | All Rights Reserved<hr /> Made with ❤️ using 🖌️ Html, CSS &amp; Reactjs💻 </p>
                 </div>
-            </div><br /><br />
+            </div><br /><br/>
             <div className="col-lg-6 wow animate__animated animate__fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.25s" style={{marginTop: "20px"}}>
               <form id="contact" action="" method="post">
                 <div className="row">

@@ -357,6 +357,9 @@ input[type="text"]:hover
   }
   @media (max-width: 575px)
   {
+    .made{
+      margin-bottom: 60px;
+    }
     #scrollUp,#back-top
     {
       right:16px

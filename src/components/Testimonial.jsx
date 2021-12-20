@@ -79,7 +79,7 @@ function Testimonial(){
               <a className="left carousel-control" href="#carousel1" data-slide="prev"> <span className="glyphicon glyphicon-chevron-left"></span> </a>
               <a className="right carousel-control" href="#carousel1" data-slide="next"> <span className="glyphicon glyphicon-chevron-right"></span> </a>
             </div>
-    </div>
+        </div>
     );
 }
 

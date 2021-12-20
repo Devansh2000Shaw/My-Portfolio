@@ -5,10 +5,9 @@ import WhyMe from './components/WhyMe';
 import Navigation from './components/Navigation';
 import Contact from './components/Contact';
 import Intro from './components/Intro';
-import Project from './components/Project';
+import Education from './components/Education';
 import Experiences from './components/Experiences';
 import Testimonial from './components/Testimonial';
-// import Education from './components/Education';
 import Tech from './components/Tech'
 
   ReactDOM.render(
@@ -18,8 +17,7 @@ import Tech from './components/Tech'
       <WhyMe/>
       <Tech/>
       <Experiences/>
-      <Project/>
-      {/* <Education/> */}
+      <Education/>
       <Testimonial/>
       <Contact/>
     </>,
