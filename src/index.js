@@ -9,8 +9,9 @@ import Project from './components/Project';
 import Education from './components/Education';
 import Experiences from './components/Experiences';
 import Testimonial from './components/Testimonial';
-import Tech from './components/Tech'
-
+import Tech from './components/Tech';
+// import Navigation from './components/NavBar';
+// import BackToTop from './components/BackToTop';
   ReactDOM.render(
     <>
       <Navigation/>
@@ -22,6 +23,7 @@ import Tech from './components/Tech'
       <Project/>
       <Testimonial/>
       <Contact/>
+      {/* <BackToTop/> */}
     </>,
     document.getElementById('root')
   );
