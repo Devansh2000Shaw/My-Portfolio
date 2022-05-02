@@ -15,7 +15,6 @@
   background: linear-gradient(90deg, #000 21px, transparent 1%) 50%, linear-gradient(#000 21px, transparent 1%) 50%, #5c5c5c;
   background-size: auto, auto, auto;
   background-size: var(--dot-space) var(--dot-space);
-
   animation: floating 150s linear infinite;
 }
 

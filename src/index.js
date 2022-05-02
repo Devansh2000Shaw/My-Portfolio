@@ -11,8 +11,7 @@ import Experiences from './components/Experiences';
 import Testimonial from './components/Testimonial';
 import Tech from './components/Tech';
 import AnimatedCursor from "react-animated-cursor"
-// import Navigation from './components/NavBar';
-// import BackToTop from './components/BackToTop';
+
   ReactDOM.render(
     <>
       <AnimatedCursor 
@@ -32,7 +31,6 @@ import AnimatedCursor from "react-animated-cursor"
       <Project/>
       <Testimonial/>
       <Contact/>
-      {/* <BackToTop/> */}
     </>,
     document.getElementById('root')
   );
