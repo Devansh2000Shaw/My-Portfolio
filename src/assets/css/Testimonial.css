@@ -30,7 +30,6 @@
   font-size: 24px;
   color: white;
   line-height: 30px;
-  bottom: 40%;
   text-shadow: none;
   top: 10%;
 }
@@ -46,7 +45,7 @@
 .testimonial-style .carousel-inner > .item {
   padding-top: auto;
   padding-bottom: auto;
-  height: 380px;
+  height: 550px;
 }
 /* carousel-left-right-control */
 .testimonial-style .carousel-control.left {
@@ -112,4 +111,24 @@
   {
       font-size: 32px;
   }
+
+  .lf{
+    margin-top: 0px;
+  }
+  
+  .rf{
+    margin-top: 0px;
+  }
+
+  .testimonial-style{
+    margin-left: 5%;
+  }
+}
+
+.lf{
+  margin-top: -150px;
+}
+
+.rf{
+  margin-top: -150px;
 }

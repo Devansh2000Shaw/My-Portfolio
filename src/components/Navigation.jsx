@@ -2,11 +2,11 @@ import React from 'react';
 import '../assets/css/Navigation.css';
 
 document.addEventListener('DOMContentLoaded',function(event){
-    var dataText = [ "MERN Developer.", "Programmer.", "Flutter Developer.", "Open source Contributor.", "Data Science Enthusiast.", ""];
+    var dataText = [ "MERN Developer.", "Programmer.", "Open source Contributor.", "Data Science Enthusiast.", ""];
     function typeWriter(text, i, fnCallback) {
 
       if (i < (text.length)) {
-       document.querySelector("h2").innerHTML = text.substring(0, i+1) +'<span aria-hidden="true"></span>';
+       document.querySelector("h2").innerHTML = text.substring(0, i+1) +'<em aria-hidden="true"></em>';
         setTimeout(function() {
           typeWriter(text, i + 1, fnCallback)
         }, 100);
@@ -36,28 +36,28 @@ function Navigation()
     return(
         <div className = "Home" id = "Hero">
             <nav>
-                <input type="checkbox" id = "check"/>
+                {/* <input type="checkbox" id = "check"/>
                 <label for = "check" class="checkbtn">
                     <i class="fa fa-bars"></i>
-                </label>
-                <label class = "logo">Design Portfolio</label>
+                </label> */}
+                <label class = "logo">DS</label>
                 <ul>
-                    <li><a class = "active" href="#" >HOME</a></li>
-                    <li><a href="#Whyme" >WHY ME?</a></li>
-                    <li><a href="#tech_tool" >SKILLS</a></li>
-                    <li><a href="#project" >PROJECT</a></li>
-                    <li><a href="#recommendation" >RECOMMENDATIONS</a></li>
-                    <li><a href="#Contact" >CONTACT</a></li>
+                    <li><a class = "active" href="#" style={{fontFamily: "Ubuntu"}}>HOME</a></li>
+                    <li><a href="#Whyme" style={{fontFamily: "Ubuntu"}}>WHY ME?</a></li>
+                    <li><a href="#tech_tool" style={{fontFamily: "Ubuntu"}}>SKILLS</a></li>
+                    <li><a href="#experiences" style={{fontFamily: "Ubuntu"}}>EXPERIENCE</a></li>
+                    <li><a href="#project" style={{fontFamily: "Ubuntu"}}>PROJECT</a></li>
+                    <li><a href="#Contact" style={{fontFamily: "Ubuntu"}}>CONTACT</a></li>
                 </ul>
                 <div class = "content">
                     <p className = "Name" style = {{marginBottom: "10px"}}>Devansh Shaw</p>
                     {/* <p className = "Slogan" style = {{marginBottom: "0px"}}>I am Front End Developer.</p> */}
-                    I'm a <h2>Frontend Web Developer</h2>
+                    <span style={{fontFamily: "cursive", fontSize: "20px"}}>I'm a </span> <h2 style={{fontFamily: "Ubuntu"}}>Frontend Web Developer</h2>
                     <br/>
                     <form action="#">
-                    <input type = "submit" id = "submit" value = "Know More" href = "#intro"/>
+                    <input type = "submit" id = "submit" value = "Know More" href = "#intro" style={{fontFamily: "Ubuntu"}}/>
                     {/* <a href = "#intro" id = "submit" class = "button">Know More</a> */}
-                    <a target = "_blank" href = "https://in.docworkspace.com/d/sIHbG3PotwfzuhAY" id = "cv" class = "button">Download CV</a>
+                    <a target = "_blank" href = "https://in.docworkspace.com/d/sIHbG3PotwfzuhAY" id = "cv" class = "button" style={{fontFamily: "Ubuntu"}}>Download CV</a>
                     </form>
                 </div>
             </nav>

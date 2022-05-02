@@ -451,3 +451,21 @@ input[type="text"]:hover
         text-decoration:none;
         background:#000;
     }
+
+    .Contact_img{
+      transform: translatey(0);
+      animation: contact_image 4s ease-in-out infinite;
+      text-align: center;
+    }
+
+    @keyframes contact_image{
+      0%{
+        animation-duration: 4s;
+        animation-timing-function: ease-in-out;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        animation-fill-mode: none;
+        animation-play-state: running;
+      }
+    }

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
 body{
             background-color: black;
         }
@@ -8,6 +9,9 @@ body{
             height: 19.375em;
             width: 14em;
         }
+		.intro_text{
+			font-family: "Ubuntu","Uchen",sans-serif;
+		}
         .description
         {
             /* overflow: auto; */
@@ -29,6 +33,9 @@ body{
             .myself{
                 margin-left: 20px
             }
+			.tours__text__desc{
+				margin-left: 12%;
+			}
         }
         /* .head
             {
@@ -144,7 +151,6 @@ tours {
 }
 
 .tours__item__text .tours__text__desc {
-	padding-top: 40px;
 	margin-bottom: 65px;
 }
 

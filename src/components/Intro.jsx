@@ -1,5 +1,7 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import '../assets/css/Intro.css';
+import Aos from 'aos';
+import "aos/dist/aos.css"
 // import myself from '../assets/img/myself.jpeg';
 // import Image from '../assets/img/Image.png';
 // import Myself from '../assets/img/Myself1-removebg.png';
@@ -9,36 +11,36 @@ import Myself from '../assets/img/Developer activity.gif';
 
 function Intro()
 {
+    useEffect( ()=>{
+        Aos.init({duration: 2000});
+    }, [])
     return(
         <div  id = "intro">
-            <p class="why"> About Me </p>
+            <p class="why" style={{fontFamily: "Ubuntu"}}> .about() </p>
             <br /><br />
-            {/* <div class = "intro">
-                <img src="image.png" class = "myself" alt="Myself"/>
-                <p class = "description">I am Devansh Shaw. Currently, I am pursuing Computer Science Engineering(CSE) from Kalinga Institute of Industrial Technology. 
-                I am skilled in SQL, C++, Cascading Style Sheets (CSS), C (Programming Language), Javascript and HTML.
-                Strong operations professional with a Bachelor's degree focused in Computer Science from Kalinga Institute 
-                of Industrial Technology. Front Web Designer at Kindle Coding club. Used HTML, CSS, Javascript programming languages and react js
-                library to create effective website landing pages, dashboards and applications.</p>
-            </div> */}
             
             <section class="tours spad">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-6 order-lg-1 animate__animated animate__slideInLeft">
+                        <div class="col-lg-6 order-lg-1" data-aos="fade-right">
                             <div class="tours__item__text">
-                                <h2 style={{color: "#EAA023"}}>Your daily meal plan</h2>
+                                {/* <h2 style={{color: "#EAA023"}}>Your daily meal plan</h2> */}
                                 <div class="tours__text__desc">
-                                    <p style={{color: "white", fontFamily: "sans-serif", fontSize: "16px", textAlign: "left", marginLeft: "10px"}}>I am Devansh Shaw. Currently, I am pursuing Computer Science Engineering(CSE) from Kalinga Institute of Industrial Technology. 
-                                    I am skilled in SQL, C++, Cascading Style Sheets (CSS), C (Programming Language), Javascript and HTML.
-                                    Strong operations professional with a Bachelor's degree focused in Computer Science from Kalinga Institute 
-                                    of Industrial Technology. Front Web Designer at Kindle Coding club. Used HTML, CSS, Javascript programming languages and react js
-                                    library to create effective website landing pages, dashboards and applications.</p>
+                                    <p style={{color: "white", textAlign: "left", marginLeft: "10px", fontSize: "20px"}} className="intro_text">
+                                        I’m Devansh, a pre-final year B.Tech CSE, undergraduate student at Kalinga Institute of Industrial Technology, BBSR, India.
+                                         🎓 I'm a pationate full-stack web developer and a competitive coder. If I talk about my professional experience, I've worked as Winter Intern @ HighRadius (worked on React JS, Python, Machine Learning, Java, JDBC, Servlet and MySql).
+                                          Apart from this, I love being part of different communities and engaging myself in different community works.
+                                           Some of the technologies and tools used by me include <span></span><span style={{color: "rgb(59, 216, 245)"}}>ReactJS</span>,
+                                             <span></span><span> Next.js</span>,  <span></span><span style={{color: "rgb(255, 166, 17)"}}> Firebase</span>,
+                                               <span></span><span style={{color: "rgb(118, 74, 188)"}}> Redux</span>, 
+                                                 <span></span><span style={{color: "rgb(60, 135, 58)"}}> NodeJS</span>, 
+                                                   <span></span><span style={{color: "rgb(243, 79, 41)"}}> Git .</span>
+                                    </p>
                                 </div>
-                                <a href="#" class="primary-btn border-btn" style={{color: "white", textAlign: "left"}}>Read More</a>
+                                {/* <a href="#" className="primary-btn border-btn" style={{color: "white", textAlign: "left"}}>Read More</a> */}
                             </div>
                         </div>
-                    <div className="col-lg-6 order-lg-2 animate__animated animate__slideInRight">
+                    <div className="col-lg-6 order-lg-2" data-aos="fade-left">
                         <div className="tours__item__pic">
                             <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
                                 <ol className="carousel-indicators">

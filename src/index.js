@@ -27,8 +27,8 @@ import AnimatedCursor from "react-animated-cursor"
       <WhyMe/>
       <Tech/>
       <Experiences/>
-      <Education/>
       <Project/>
+      <Education/>
       <Testimonial/>
       <Contact/>
     </>,

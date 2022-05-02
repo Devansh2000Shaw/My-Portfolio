@@ -1,5 +1,4 @@
 import React, {useState, useEffect } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import CircleLoader from "react-spinners/CircleLoader";
 import Preloader from './components/Preloader';
@@ -17,24 +16,12 @@ function App() {
     <div className="App">
       {
         loading ? (
-          // <CircleLoader size = {30} color = {'#24caac'} loading = {loading}/>
-          <Preloader/>
+          <CircleLoader size = {30} color = {'#24caac'} loading = {loading}/>
+          // <Preloader/>
         )
         :
       <header className="App-header">
         <Preloader/>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
       }
     </div>

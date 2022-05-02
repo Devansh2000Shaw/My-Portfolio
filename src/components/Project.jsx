@@ -1,4 +1,6 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+import Aos from 'aos';
+import "aos/dist/aos.css"
 import '../assets/css/Projects.css';
 import img1 from '../assets/img/img 1.jpeg';
 import MP from '../assets/img/MusicPlayer.png';
@@ -47,24 +49,27 @@ import python from '../assets/img/phython.png';
 
 function Project()
 {
+    useEffect( ()=>{
+        Aos.init({duration: 2000});
+    }, [])
     return(
         <div id = "project" style = {{marginBottom: "-20px"}}>
-            <p className = "why">Projects</p>
+            <p className = "why" style={{fontFamily: "Ubuntu", marginLeft: "-2%"}}>.projects()</p>
             <div className="slogan_project" >
                     <h2>Projects I have</h2>
                     <h2>done in the past</h2>
             </div>
             <div className="row">
-                <div className="image1 animate__animated animate__backInUp"  id = "click1">
+                <div className="image1"  id = "click1" data-aos="zoom-in">
                     <img alt="images" src={img1} onClick={displayFlex1} className="image1" />
                 </div>
-                <div className="image2 animate__animated animate__backInRight">
+                <div className="image2" data-aos="zoom-in">
                     <img alt="images" src={img2} onClick={displayFlex2} className="image2" />
                 </div>
-                <div className="image3 animate__animated animate__backInRight">
+                <div className="image3" data-aos="zoom-in">
                     <img alt="images" src={MP} onClick={displayFlex3} className="image3" />
                 </div>
-                <div className="image4 animate__animated animate__backInRight">
+                <div className="image4" data-aos="zoom-in">
                     <img alt="images" src={prog} onClick={displayFlex4} className="image4" />
                 </div>
             </div>

@@ -43,7 +43,7 @@
     height: 16px;
     top: 48px;
     right: -8px;
-    background: rgb(29, 28, 28);
+    /* background: rgb(29, 28, 28); */
     background-image: url('../icons/KIIT.png');
     border: 2px solid #E96E13;
     border-radius: 16px;
@@ -95,7 +95,8 @@
 
 .experience .timeline .timeline-text {
     padding: 30px;
-    background: rgb(29, 28, 28);
+    /* background: rgb(29, 28, 28); */
+    background-color: hsla(0,0%,100%,.2);
     color: white;
     position: relative;
     border-right: 5px solid #dddddd;

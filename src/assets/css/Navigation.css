@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&family=Pacifico&family=Ubuntu:wght@500&display=swap');
         *
         {
             margin: 0;
@@ -13,7 +15,6 @@
         }
         .Home{
             background-size: cover;
-            /* background-image: url(BgReduced.jpg); */
             background-image: url('../img/back.gif');
             background-repeat: no-repeat;
         }
@@ -32,7 +33,7 @@
             line-height: 80px;
             padding: 0 100px;
             font-weight: bold;
-            font-family: sans-serif;
+            font-family: 'Pacifico', cursive;
         }
         nav ul
         {
@@ -67,11 +68,12 @@
         .content
         {
             text-align: center;
-            margin-top: 25vh;
+            margin-top: 22vh;
         }
         .Name
         {
-            font-family: sans-serif;
+            /* font-family: sans-serif; */
+            font-family: 'Oleo Script Swash Caps', cursive;
             font-style: normal;
             font-weight: bold;
             font-size: 50px;
@@ -79,7 +81,7 @@
             color: #24CAAC;
             /* -webkit-text-stroke-width: 2px;
             -webkit-text-stroke-color: #243665; */
-            animation: text 3s infinite;
+            /* animation: text 3s infinite; */
         }
         @keyframes text
         {
@@ -98,7 +100,7 @@
             font-size: 40px;
             /* color: rgb(255, 153, 0); */
             color: #E96E13;
-            animation: nav 6s 2;
+            animation: nav 6s infinite;
         }
         @keyframes nav
         {
@@ -266,7 +268,7 @@
     text-transform: uppercase;
   }
   
-  span {
+  em {
     border-right: .05em solid;
     animation: caret 1s steps(1) infinite;
   }
