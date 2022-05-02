@@ -1,20 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
 #Whyme
 {
     /* margin-bottom: 100px; */
-    background-image: url('../img/gif11.gif');
+  /* background-image: url('../img/gif11.gif');
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: fixed; */
+  background-color: #000000;
+  scroll-behavior: smooth;
+  --dot-size: 1px;
+  --dot-space: 22.4px;
+  min-width: 95vw;
+  min-height: 100vh;
+  background: linear-gradient(90deg, #000 21px, transparent 1%) 50%, linear-gradient(#000 21px, transparent 1%) 50%, #5c5c5c;
+  background-size: auto, auto, auto;
+  background-size: var(--dot-space) var(--dot-space);
+
+  animation: floating 150s linear infinite;
 }
+
+@keyframes floating {
+    100% {
+      background-position: 50px 0,125px 25px;
+    }
+  }
+
 body
 {
-    font-family: sans-serif;
+    font-family: "Ubuntu","Uchen",sans-serif;
 }
 .why
 {
     font-size: 48px;
     font-weight: bold;
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
     background-image: linear-gradient(45deg, #f3ec78, #af4261);
     background-clip: text;
     text-align: center;
