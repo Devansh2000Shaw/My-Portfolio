@@ -149,6 +149,8 @@
    justify-content: center;
    align-items: center;
    display: none;
+   font-family: "Ubuntu";
+   font-weight: lighter;
    z-index: 250;
 }
 
@@ -217,7 +219,7 @@
 #popup_top_image1{
    width: 100%;
    height: 200px;
-   background-image: url('../img/geekbot_dark.png');
+   background-image: url('../img/img.png');
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -226,19 +228,38 @@
 #popup_top_image2{
    width: 100%;
    height: 200px;
-   background-image: url('../img/GFGKIITWebsitePoster.png');
+   background-image: url('../img/img 2.jpeg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-radius: 10px 10px 0px 0px;
+}
+#popup_top_image3{
+   width: 100%;
+   height: 200px;
+   background-image: url('../img/MusicPlayer.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-radius: 10px 10px 0px 0px;
+}
+#popup_top_image4{
+   width: 100%;
+   height: 200px;
+   background-image: url('../img/todo.png');
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
    border-radius: 10px 10px 0px 0px;
 }
 .popup_card{
-   width: 200px;
+   width: 250px;
    height: 170px;
    border-radius: 5px;
    position: absolute;
    top: 130px;
    left: 40px;
+   bottom: 20px;
    box-shadow: 2px 2px 6px #898989;
    background-color: white;
    padding: 10px;
@@ -270,7 +291,7 @@
 #popup_card_project_title{
    font-size: 20px;
    font-weight: 600;
-   padding:15px 0px 10px 0px;
+   padding:15px 0px 0px 0px;
    float: left;
 }
 #popup_card_project_contributor{
@@ -313,7 +334,7 @@
    padding: 25px 20px 8px 20px;
    font-size: 18px;
    line-height:18px;
-   font-weight: 100!important;
+   font-weight: lighter !important;
 }
 .popup_bottom{
    float: left;
@@ -346,6 +367,9 @@
    }
    .image1{
       margin-bottom: 140px;
+      /* padding-left: 10px;
+      padding-right: 10px;
+      border-radius: 10px; */
    }
    .image3{
       margin-bottom: 65px;

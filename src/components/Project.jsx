@@ -2,9 +2,9 @@ import React, {useEffect} from 'react';
 import Aos from 'aos';
 import "aos/dist/aos.css"
 import '../assets/css/Projects.css';
-import img1 from '../assets/img/img 1.jpeg';
+import img1 from '../assets/img/img2.png';
 import MP from '../assets/img/MusicPlayer.png';
-import img2 from '../assets/img/img 2.jpeg';
+import img2 from '../assets/img/ma_logo.png';
 import prog from '../assets/img/todo.png';
 import cross from '../assets/img/cross.png';
 import html from '../assets/img/html.png';
@@ -99,7 +99,7 @@ function Project()
                 </div>
                 <div className="bg-modal2">
                     <div class="modal-content2">
-                        <div id="popup_top_image1">
+                        <div id="popup_top_image2">
                             <div className="cross">
                                 <div className="list-item" onClick={displayNone2} ><img alt="images" src={cross} className="fa-times"/></div>
                             </div>
@@ -122,7 +122,7 @@ function Project()
                 </div>
                 <div className="bg-modal3">
                     <div class="modal-content3">
-                        <div id="popup_top_image2">
+                        <div id="popup_top_image3">
                             <div className="cross">
                                 <div className="list-item" onClick={displayNone3} ><img alt="images" src={cross} className="fa-times"/></div>
                             </div>
@@ -149,7 +149,7 @@ function Project()
                 </div>
                 <div className="bg-modal4">
                     <div class="modal-content4">
-                        <div id="popup_top_image2">
+                        <div id="popup_top_image4">
                             <div className="cross">
                                 <div className="list-item" onClick={displayNone4} ><img alt="images" src={cross} className="fa-times"/></div>
                             </div>
