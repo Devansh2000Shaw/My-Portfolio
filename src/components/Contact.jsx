@@ -54,7 +54,7 @@ function Contact()
 
     return(
         <div>
-            <p className = "why" id = "Contact" style={{marginTop: "15px", marginBottom: "-50px", fontFamily: "Ubuntu"}}>.contact()</p>
+            <p className = "why" id = "Contact" style={{ fontFamily: "Ubuntu"}}>.contact()</p>
             <div className="bg-modal5">
                         <div class="modal-content5">
                             <div class="container">

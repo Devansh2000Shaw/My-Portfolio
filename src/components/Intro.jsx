@@ -28,7 +28,7 @@ function Intro()
                                 <div class="tours__text__desc">
                                     <p style={{color: "white", textAlign: "left", marginLeft: "10px", fontSize: "20px"}} className="intro_text">
                                         I’m Devansh, a pre-final year B.Tech CSE, undergraduate student at Kalinga Institute of Industrial Technology, BBSR, India.
-                                         🎓 I'm a pationate full-stack web developer and a competitive coder. If I talk about my professional experience, I've worked as Winter Intern @ HighRadius (worked on React JS, Python, Machine Learning, Java, JDBC, Servlet and MySql).
+                                         🎓 I'm a passionate full-stack web developer and a competitive coder. If I talk about my professional experience, I've worked as Winter Intern @ HighRadius (worked on React JS, Python, Machine Learning, Java, JDBC, Servlet and MySql).
                                           Apart from this, I love being part of different communities and engaging myself in different community works.
                                            Some of the technologies and tools used by me include <span></span><span style={{color: "rgb(59, 216, 245)"}}>ReactJS</span>,
                                              <span></span><span> Next.js</span>,  <span></span><span style={{color: "rgb(255, 166, 17)"}}> Firebase</span>,
