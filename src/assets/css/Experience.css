@@ -1,6 +1,4 @@
-.experience {
-    position: relative;
-    padding: 45px 0 15px 0;
+#experiences{
     background-color: #000000;
     scroll-behavior: smooth;
     --dot-size: 1px;
@@ -11,6 +9,11 @@
     background-size: auto, auto, auto;
     background-size: var(--dot-space) var(--dot-space);
     animation: floating 150s linear infinite;
+}
+
+.experience {
+    position: relative;
+    padding: 45px 0 15px 0;
 }
 
 @keyframes floating {

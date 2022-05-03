@@ -1,6 +1,7 @@
 .tech_tool {
     float: left;
     padding: 10px 0px 80px 80px;
+    /* padding: 60px; */
     width: 90vw;
     background-color: #000000;
     scroll-behavior: smooth;
@@ -31,7 +32,6 @@
     padding: 0px 10px;
   }
 
-  
   .lang_card {
     float: left;
     width: 100px;

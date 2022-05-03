@@ -13,7 +13,7 @@ function WhyMe()
     }, [])
     return(
         <div id = "Whyme">
-            <p className = "why">Why Me?</p>
+            <p className = "why">.why_me()</p>
             <br />
             <br />
             <div className = "whyme row">

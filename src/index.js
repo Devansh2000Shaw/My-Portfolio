@@ -21,7 +21,7 @@ import AnimatedCursor from "react-animated-cursor"
         outerAlpha={0.2}
         innerScale={0.6}
         outerScale={2}
-        trailingSpeed={7}/>
+        trailingSpeed={10}/>
       <Navigation/>
       <Intro/>
       <WhyMe/>
