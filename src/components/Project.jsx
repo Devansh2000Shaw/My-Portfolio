@@ -3,7 +3,7 @@ import Aos from 'aos';
 import "aos/dist/aos.css"
 import '../assets/css/Projects.css';
 import img1 from '../assets/img/img2.png';
-import MP from '../assets/img/MusicPlayer.png';
+import IM from '../assets/img/HRC_1.jpeg';
 import img2 from '../assets/img/ma_logo.png';
 import prog from '../assets/img/todo.png';
 import cross from '../assets/img/cross.png';
@@ -61,13 +61,13 @@ function Project()
             </div>
             <div className="row">
                 <div className="image1"  id = "click1" data-aos="zoom-in">
-                    <img alt="images" src={img1} onClick={displayFlex1} className="image1" />
+                    <img alt="images" src={IM} onClick={displayFlex1} className="image1" />
                 </div>
                 <div className="image2" data-aos="zoom-in">
-                    <img alt="images" src={img2} onClick={displayFlex2} className="image2" />
+                    <img alt="images" src={img1} onClick={displayFlex2} className="image2" />
                 </div>
                 <div className="image3" data-aos="zoom-in">
-                    <img alt="images" src={MP} onClick={displayFlex3} className="image3" />
+                    <img alt="images" src={img2} onClick={displayFlex3} className="image3" />
                 </div>
                 <div className="image4" data-aos="zoom-in">
                     <img alt="images" src={prog} onClick={displayFlex4} className="image4" />

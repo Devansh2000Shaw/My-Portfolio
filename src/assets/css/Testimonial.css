@@ -119,9 +119,15 @@
   .rf{
     margin-top: 0px;
   }
+  .testimonial-authors{
+    margin-top: 5px;
+  }
 
   .testimonial-style{
     margin-left: 5%;
+  }
+  .carousel-inner{
+    height: 700px;
   }
 }
 

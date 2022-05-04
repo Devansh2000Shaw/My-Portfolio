@@ -10,8 +10,8 @@ export default function Education() {
     return (
         <div className="journey" id="journey">
             <div className="journey_sub_division_exp">
-                <div className = "why" style={{fontFamily: "Ubuntu", marginLeft: "-10%"}} >.education()</div>
-                <div className="timeline">
+                <div className = "why" style={{fontFamily: "Ubuntu"}} >.education()</div>
+                <div className="education_timeline">
                 <a href="https://kiit.ac.in/" target="_blank" rel="noopener noreferrer"><img src={KIIT} alt="logo" className="timeline_logo1"/></a>
                     <div className="line"></div>
                     <a href="https://sssjs.com/shree-jain-vidyalaya-kolkata/" target="_blank" rel="noopener noreferrer"><img src={SJV} alt="logo" className="timeline_logo"/></a>
