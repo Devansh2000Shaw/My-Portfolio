@@ -52,6 +52,9 @@ function Contact()
     Aos.init({duration: 2000});
   }, [])
 
+    const d = new Date();
+    const currYear = d.getFullYear();
+
     return(
         <div>
             <p className = "why" id = "Contact" style={{ fontFamily: "Ubuntu"}}>.contact()</p>
@@ -91,7 +94,7 @@ function Contact()
                         <a href="https://www.linkedin.com/in/devansh-shaw"><img src = {Linkedin} height="65px" width="65px"/></a>
                         <span style={{paddingLeft: "20px"}}></span>
                         <a href="https://github.com/Devansh2000Shaw"><img src = {Github} height="45px" width="45px" /></a>
-                        <p style = {{fontSize: "20px", textAlign: "center", marginTop: "20px", fontFamily: "Ubuntu", color: "white"}}> Copyright © 2022 | All Rights Reserved <hr /> Made with <img src = {Love} height="40px" width="40px" />  and <img src = {Music} height="40px" width="40px" /> by Devansh Shaw</p>
+                        <p style = {{fontSize: "20px", textAlign: "center", marginTop: "20px", fontFamily: "Ubuntu", color: "white"}}> Copyright © {currYear} | All Rights Reserved <hr /> Made with <img src = {Love} height="40px" width="40px" />  and <img src = {Music} height="40px" width="40px" /> by Devansh Shaw</p>
 
                         {/* <a href="tel:6290502415"><i className="fa fa-whatsapp" aria-hidden="true"></i></a> */}
                     </div>

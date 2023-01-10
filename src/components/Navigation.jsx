@@ -2,7 +2,7 @@ import React from 'react';
 import '../assets/css/Navigation.css';
 
 document.addEventListener('DOMContentLoaded',function(event){
-    var dataText = [ "MERN Developer.", "Programmer.", "Open source Contributor.", "Data Science Enthusiast.", ""];
+    var dataText = [ "MERN Developer.", "Programmer.", "Open source Contributor.", ""];
     function typeWriter(text, i, fnCallback) {
 
       if (i < (text.length)) {
@@ -55,8 +55,8 @@ function Navigation()
                     <span style={{fontFamily: "cursive", fontSize: "20px"}}>I'm a </span> <h2 style={{fontFamily: "Ubuntu"}}>Frontend Web Developer</h2>
                     <br/>
                     <form action="#">
-                    <input type = "submit" id = "submit" value = "Know More" href = "#intro" style={{fontFamily: "Ubuntu"}}/>
-                    {/* <a href = "#intro" id = "submit" class = "button">Know More</a> */}
+                    {/* <input type = "submit" id = "submit" value = "Know More" href = "#intro" style={{fontFamily: "Ubuntu"}}/> */}
+                    <a href = "#intro" id = "submit" class = "button" style={{fontFamily: "Ubuntu"}}>Know More</a>
                     <a target = "_blank" href = "https://in.docworkspace.com/d/sIHbG3PotwfzuhAY" id = "cv" class = "button" style={{fontFamily: "Ubuntu"}}>Download CV</a>
                     </form>
                 </div>
