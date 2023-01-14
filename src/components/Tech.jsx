@@ -24,7 +24,7 @@ import '../assets/css/tech.css';
 function Tech() {
       return (
         <div className="tech_tool" id="tech_tool">
-            <p className="why" style={{fontFamily: "Ubuntu"}}> .skills() </p>
+            <p className="skills_title" style={{fontFamily: "Ubuntu"}}> .skills() </p>
             <br/><br/>
             {/* <div className="tech_tool_title">Languages</div> */}
             <a href="https://devdocs.io/c/" target="_blank" rel="noopener noreferrer" className="lang_card"><img src={C} alt="tech_tools" className="tech_logo" /><span className="title_track">C</span></a>

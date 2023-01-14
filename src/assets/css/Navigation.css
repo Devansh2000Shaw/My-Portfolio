@@ -178,6 +178,12 @@
         {
           display: none;
         }
+        @media screen and (max-width: 768px)
+        {
+            #submit{
+                margin-bottom: 22%;
+            }
+        }
         @media screen and (max-width: 952px)
             {
                 label.logo

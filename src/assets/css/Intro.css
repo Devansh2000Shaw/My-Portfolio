@@ -9,6 +9,12 @@ body{
             height: 19.375em;
             width: 14em;
         }
+		.carousel-inner-intro{
+			height: 500px;
+			position: relative;
+			overflow: hidden;
+			width: 100%;
+		}
 		.intro_text{
 			font-family: "Ubuntu","Uchen",sans-serif;
 		}
