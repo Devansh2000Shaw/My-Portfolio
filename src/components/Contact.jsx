@@ -81,20 +81,21 @@ function Contact()
           <div id="contact" className="contact-us section">
             <div className="container">
               <div className="row">
-                <div className="col-lg-6 align-self-center wow" data-aos="fade-up" style={{marginTop: "-40px"}}>
+                <div className="col-lg-6 contact-wrapper align-self-center wow" data-aos="fade-up" style={{marginTop: "-40px" }}>
                   <div className="Contact_img">
                     <img className="" src={my} alt=""/>
                   </div>
                   <br/><br/>
                   <div className="footer-item footer-contact">
-                        <p style = {{marginBottom: "0px", color: "white", fontSize: "22px", fontFamily: "Ubuntu", fontWeight: "500"}}><img src = {Location} height="30px" width="30px" /> <span style={{paddingLeft:"10px"}}> Kolkata, India </span></p><br/>
-                        <a href="mailto:akashshaw8783@gmail.com" style = {{marginBottom: "0px", color: "white", fontSize: "22px", fontFamily: "Ubuntu", fontWeight: "500"}}><img src = {Email} height="30px" width="30px"/> <span style={{paddingLeft:"10px"}}> akashshaw8783@gmail.com </span></a><br/>
+                        <p style = {{marginBottom: "0px", color: "white", fontSize: "22px", fontFamily: "Ubuntu", fontWeight: "500"}}>
+                          <img src = {Location} height="30px" width="30px" alt = "location"/> <span style={{paddingLeft:"10px"}}> Kolkata, India </span></p><br/>
+                        <a href="mailto:akashshaw8783@gmail.com" style = {{marginBottom: "0px", color: "white", fontSize: "22px", fontFamily: "Ubuntu", fontWeight: "500"}}><img src = {Email} height="30px" alt = "email" width="30px"/> <span style={{paddingLeft:"10px"}}> akashshaw8783@gmail.com </span></a><br/>
                         {/* <p style = {{marginBottom: "0px", color: "white", fontSize: "16px"}}><i className="fa fa-phone" aria-hidden="true"></i> +91 6290502415</p><br/> */}
                         <br/>
-                        <a href="https://www.linkedin.com/in/devansh-shaw"><img src = {Linkedin} height="65px" width="65px"/></a>
+                        <a href="https://www.linkedin.com/in/devansh-shaw"><img src = {Linkedin} height="65px" width="65px" alt= "Linkedin"/></a>
                         <span style={{paddingLeft: "20px"}}></span>
-                        <a href="https://github.com/Devansh2000Shaw"><img src = {Github} height="45px" width="45px" /></a>
-                        <p style = {{fontSize: "20px", textAlign: "center", marginTop: "20px", fontFamily: "Ubuntu", color: "white"}}> Copyright © {currYear} | All Rights Reserved <hr /> Made with <img src = {Love} height="40px" width="40px" />  and <img src = {Music} height="40px" width="40px" /> by Devansh Shaw</p>
+                        <a href="https://github.com/Devansh2000Shaw"><img src = {Github} height="45px" width="45px" alt= "Github"/></a>
+                        <p style = {{fontSize: "20px", textAlign: "center", marginTop: "20px", fontFamily: "Ubuntu", color: "white"}}> Copyright © {currYear} | All Rights Reserved <hr /> Made with <img src = {Love} alt = "love" height="40px" width="40px" />  and <img src = {Music} alt = "music" height="40px" width="40px" /> by Devansh Shaw</p>
 
                         {/* <a href="tel:6290502415"><i className="fa fa-whatsapp" aria-hidden="true"></i></a> */}
                     </div>

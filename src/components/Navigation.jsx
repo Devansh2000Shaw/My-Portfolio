@@ -42,12 +42,12 @@ function Navigation()
                 </label> */}
                 <label class = "logo">DS</label>
                 <ul>
-                    <li><a class = "active" href="#" style={{fontFamily: "Ubuntu"}}>HOME</a></li>
-                    <li><a href="#Whyme" style={{fontFamily: "Ubuntu"}}>WHY ME?</a></li>
-                    <li><a href="#tech_tool" style={{fontFamily: "Ubuntu"}}>SKILLS</a></li>
-                    <li><a href="#experiences" style={{fontFamily: "Ubuntu"}}>EXPERIENCE</a></li>
-                    <li><a href="#project" style={{fontFamily: "Ubuntu"}}>PROJECT</a></li>
-                    <li><a href="#Contact" style={{fontFamily: "Ubuntu"}}>CONTACT</a></li>
+                    <li><a class = "active" href="#Hero">HOME</a></li>
+                    <li><a href="#Whyme">WHY ME?</a></li>
+                    <li><a href="#tech_tool">SKILLS</a></li>
+                    <li><a href="#experiences">EXPERIENCE</a></li>
+                    <li><a href="#project">PROJECT</a></li>
+                    <li><a href="#Contact">CONTACT</a></li>
                 </ul>
                 <div class = "content">
                     <p className = "Name" style = {{marginBottom: "10px"}}>Devansh Shaw</p>
@@ -55,9 +55,8 @@ function Navigation()
                     <span style={{fontFamily: "cursive", fontSize: "20px"}}>I'm a </span> <h2 style={{fontFamily: "Ubuntu"}}>Frontend Web Developer</h2>
                     <br/>
                     <form action="#">
-                    {/* <input type = "submit" id = "submit" value = "Know More" href = "#intro" style={{fontFamily: "Ubuntu"}}/> */}
-                    <a href = "#intro" id = "submit" class = "button" style={{fontFamily: "Ubuntu"}}>Know More</a>
-                    <a target = "_blank" href = "https://in.docworkspace.com/d/sIHbG3PotwfzuhAY" id = "cv" class = "button" style={{fontFamily: "Ubuntu"}}>Download CV</a>
+                    <input type = "submit" id = "submit" value = "Know More" href = "#intro"/>
+                    <a target = "_blank" href = "https://in.docworkspace.com/d/sIHbG3PotwfzuhAY" id = "cv" rel="noreferrer">Download CV</a>
                     </form>
                 </div>
             </nav>

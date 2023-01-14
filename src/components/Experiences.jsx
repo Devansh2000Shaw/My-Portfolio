@@ -74,7 +74,7 @@ function Experiences(){
                                 <h2 style={{fontFamily: "Ubuntu"}}>React Developer</h2>
                                 <h4 style={{fontFamily: "Ubuntu"}}>KIIT Entrepreneurship Cell</h4>
                                 <p style={{fontFamily: "Ubuntu"}}>
-                                    Worked closely with the Ecell team and contributed to the <a target = "_blank" href="https://ksk.ecell.org.in/">KIIT Startup Konclave website</a> as well as to the <a target = "_blank" href="https://icamp.ecell.org.in/">Internship Camp</a> website by making the initial design, fixing bugs, and integrating APIs.
+                                    Worked closely with the Ecell team and contributed to the <a target = "_blank" rel="noreferrer" href="https://ksk.ecell.org.in/">KIIT Startup Konclave website</a> as well as to the <a target = "_blank" rel="noreferrer" href="https://icamp.ecell.org.in/">Internship Camp</a> website by making the initial design, fixing bugs, and integrating APIs.
                                 </p>
                             </div>
                         </div>

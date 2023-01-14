@@ -41,6 +41,7 @@
             margin-right: 20px;
             font-family: sans-serif;
             font-weight: bold;
+            font-family: "Ubuntu";
         }
         nav ul li
         {
@@ -124,13 +125,14 @@
             color: white;
             font-size: 16px;
             border-radius: 20px;
-            padding-top: 11px;
-            padding-bottom: 11px;
+            padding-top: 8px;
+            padding-bottom: 8px;
             padding-right: 30px;
             padding-left: 30px;
             background-color: #24CAAC;
             border-color: #24CAAC;
             margin-bottom: 10%;
+            font-family: "Ubuntu";
             /* background-image: linear-gradient(to right, #399bff, #ee71f9);
             border-image: linear-gradient(to right, #399bff, #ee71f9); */
         }
@@ -146,12 +148,12 @@
             margin-left: 30px;
             background-color: black;
             border: 3px solid #24CAAC;
+            font-family: "Ubuntu";
         }
         #submit:hover
         {
-            /* border: 5px solid  black; */
-            padding-right: 15px;
-            padding-left: 15px;
+            padding-right: 18px;
+            padding-left: 18px;
             transition: 0.6s ease;
         }
         #cv:hover

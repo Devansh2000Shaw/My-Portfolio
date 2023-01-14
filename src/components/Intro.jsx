@@ -52,21 +52,21 @@ function Intro()
                                 <div class="carousel-item active">
                                     <img src={Myself} height="500px" width="150px" alt=""/>
                                     <div className="carousel-caption d-none d-md-block">
-                                        <h5></h5>
+                                        <h5> </h5>
                                         <p></p>
                                     </div>
                                 </div>
                                 <div className="carousel-item">
                                     <img src={Image} height="500px" width="150px" alt=""/>
                                     <div className="carousel-caption d-none d-md-block">
-                                        <h5></h5>
+                                        <h5> </h5>
                                         <p></p>
                                     </div>
                                 </div>
                                 <div className="carousel-item">
                                     <img src={myself} height="500px" width="150px" alt=""/>
                                     <div className="carousel-caption d-none d-md-block">
-                                        <h5></h5>
+                                        <h5> </h5>
                                         <p></p>
                                     </div>
                                 </div>

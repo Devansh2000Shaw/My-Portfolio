@@ -2,7 +2,6 @@ import React from 'react';
 import SJV from '../assets/icons/SJV.jpeg';
 import GBV from '../assets/icons/GBV.png';
 import KIIT from '../assets/icons/KIIT.png';
-import GFG from '../assets/icons/GFG.png';
 
 import '../assets/css/Education.css';
 
@@ -12,7 +11,7 @@ export default function Education() {
             <div className="journey_sub_division_exp">
                 <div className = "why" style={{fontFamily: "Ubuntu"}} >.education()</div>
                 <div className="education_timeline">
-                <a href="https://kiit.ac.in/" target="_blank" rel="noopener noreferrer"><img src={KIIT} alt="logo" className="timeline_logo1"/></a>
+                    <a href="https://kiit.ac.in/" target="_blank" rel="noopener noreferrer"><img src={KIIT} alt="logo" className="timeline_logo1"/></a>
                     <div className="line"></div>
                     <a href="https://sssjs.com/shree-jain-vidyalaya-kolkata/" target="_blank" rel="noopener noreferrer"><img src={SJV} alt="logo" className="timeline_logo"/></a>
                     <div className="line"></div>
