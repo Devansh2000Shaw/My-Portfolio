@@ -151,7 +151,7 @@ function Project()
                             </div>
                         </div>
                         <div class="popup-context">
-                        It's a website dedicated to assisting those who are mentally. It includes a section on identifying symptoms, prognostic procedures & allows users to consult doctors as well as read, music, and food recommendations.
+                        It's a website dedicated to assisting those who are mentally sick. It includes a section on identifying symptoms, prognostic procedures & allows users to consult doctors as well as read, music, and food recommendations.
                         </div>
                     </div>
                 </div>
