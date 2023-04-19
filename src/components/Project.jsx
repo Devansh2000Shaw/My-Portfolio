@@ -13,6 +13,9 @@ import github from '../assets/img/github.png';
 import react from '../assets/img/react.png';
 import javascript from '../assets/img/javaScript.png';
 import python from '../assets/img/phython.png';
+import JAVA from "../assets/icons/Java.png";
+import JQUERY from "../assets/icons/jquery.webp";
+import EXPRESS from "../assets/icons/expressjs1.png";
 
             function displayFlex1()
             {
@@ -82,18 +85,20 @@ function Project()
                             </div>
                         </div>
                         <div class="popup_card">
-                            <div>
-                                <a href="https://github.com/GFG-CLUB-KIIT/" target="_blank" rel="noopener noreferrer"><img alt="images" src={github} id="popup_card_github" /></a>
-                                <a href="https://github.com/GFG-CLUB-KIIT/thegeekbot" target="_blank" rel="noopener noreferrer" id="popup_card_project_link">Go to Website</a>
-                            </div>
-                            <div id="popup_card_project_title">The Geek Bot</div>
-                            <div class="popup_card_bottom">
-                                <lable class="popup_card_bottom_lang">Language Used:</lable> 
-                                <img alt="images" src={python} class="popup_card_bottom_lang_logo" title="Phython" />
+                            
+                            <div id="popup_card_project_title">Invoice Management Application</div>
+                            <div class="popup_bottom">
+                            <lable class="popup_bottom_lang">Language Used:</lable> 
+                                <img alt="images" src={javascript} class="popup_bottom_lang_logo" title="JavaScript" />
+                                <img alt="images" src={python} class="popup_bottom_lang_logo" title="Python" />
+                                <img alt="images" src={JAVA} class="popup_bottom_lang_logo" title="Java" />
+                            <lable class="popup_bottom_frame">Framework Used:</lable>
+                                <img alt="images" src={react} class="popup_bottom_lang_logo reactlogo" title="React" />
                             </div>
                         </div>
                         <div class="popup-context">
-                            Our App-Dev Team started working on their 1st project, the Geek Bot. It possesses a programmer’s search feature that enables the users to search various programming concepts. It also gives the list of top articles from the GeeksforGeeks website along with their respective links. Besides, it even returns the list of all ongoing coding events all around the world when called.
+                            Developed an ML model to predict the payment date of an invoice. Achieved accuracy of 77% using Random Forest Regression.
+                            Built a full-stack Invoice Management Application React web app that allows users to perform CRUD operations on Invoices. Users can perform search and advance searches on invoices. Built back-end using Java, JDBC, Servlets, and MySQL to show invoices on React web.
                         </div>
                     </div>
                 </div>
@@ -106,17 +111,19 @@ function Project()
                         </div>
                         <div class="popup_card">
                             <div>
-                                <a href="https://github.com/GFG-CLUB-KIIT/" target="_blank" rel="noopener noreferrer"><img alt="images" src={github} id="popup_card_github" /></a>
-                                <a href="https://github.com/GFG-CLUB-KIIT/thegeekbot" target="_blank" rel="noopener noreferrer" id="popup_card_project_link">Go to Website</a>
+                                <a href="" target="_blank" rel="noopener noreferrer"><img alt="images" src={github} id="popup_card_github" /></a>
+                                <a href="https://hotel-manage.netlify.app/" target="_blank" rel="noopener noreferrer" id="popup_card_project_link">Go to Website</a>
                             </div>
-                            <div id="popup_card_project_title">The Geek Bot</div>
+                            <div id="popup_card_project_title">Crowne Plaza</div>
                             <div class="popup_card_bottom">
                                 <lable class="popup_card_bottom_lang">Language Used:</lable> 
-                                <img alt="images" src={python} class="popup_card_bottom_lang_logo" title="Phython" />
+                                <img alt="images" src={javascript} class="popup_card_bottom_lang_logo" title="JavaScript" />
+                                <img alt="images" src={react} class="popup_card_bottom_lang_logo" title="React" />
+                                <img alt="images" src={EXPRESS} class="popup_card_bottom_lang_logo" title="Express JS" />
                             </div>
                         </div>
                         <div class="popup-context">
-                            Our App-Dev Team started working on their 1st project, the Geek Bot. It possesses a programmer’s search feature that enables the users to search various programming concepts. It also gives the list of top articles from the GeeksforGeeks website along with their respective links. Besides, it even returns the list of all ongoing coding events all around the world when called.
+                            It is a website with options for ordering food, booking tables & renting rooms. It uses JWT authentication and Bcrypt hashing algorithm for secured login. 
                         </div>
                     </div>
                 </div>
@@ -129,10 +136,10 @@ function Project()
                         </div>
                         <div class="popup_card1">
                             <div>
-                                <a href="https://github.com/GFG-CLUB-KIIT/" target="_blank" rel="noopener noreferrer"><img alt="images" src={github} id="popup_card_github" /></a>
-                                <a href="https://github.com/GFG-CLUB-KIIT/GFG-KIIT-website" target="_blank" rel="noopener noreferrer" id="popup_card_project_link">Go to Website</a>
+                                <a href="https://github.com/Devansh2000Shaw/Mental-Awarness" target="_blank" rel="noopener noreferrer"><img alt="images" src={github} id="popup_card_github" /></a>
+                                <a href="https://devansh2000shaw.github.io/Mental-Awarness/" target="_blank" rel="noopener noreferrer" id="popup_card_project_link">Go to Website</a>
                             </div>
-                            <div id="popup_card_project_title">GFG Website</div>
+                            <div id="popup_card_project_title">Mentify</div>
                             <div class="popup_bottom">
                             <lable class="popup_bottom_lang">Language Used:</lable> 
                                 <img alt="images" src={html} class="popup_bottom_lang_logo" title="HTML" />
@@ -140,10 +147,11 @@ function Project()
                                 <img alt="images" src={javascript} class="popup_bottom_lang_logo" title="JavaScript" /><br/>
                             <lable class="popup_bottom_frame">Framework Used:</lable>
                                 <img alt="images" src={react} class="popup_bottom_lang_logo reactlogo" title="React" />
+                                <img alt="images" src={JQUERY} class="popup_bottom_lang_logo reactlogo" title="Jquery" />
                             </div>
                         </div>
                         <div class="popup-context">
-                            Our Web-Dev Team started working on their 1st project, Geeksforgeeks KIIT Student Club Website. It possesses a programmer’s search feature that enables the users to search various programming concepts. Besides, it even returns the list of all ongoing coding events all around the world when called. It also has been administered with a profanity filter that identifies unparliamentary language by any user and purges them.
+                        It's a website dedicated to assisting those who are mentally. It includes a section on identifying symptoms, prognostic procedures & allows users to consult doctors as well as read, music, and food recommendations.
                         </div>
                     </div>
                 </div>
@@ -155,18 +163,12 @@ function Project()
                             </div>
                         </div>
                         <div class="popup_card1">
-                            <div>
-                                <a href="https://github.com/GFG-CLUB-KIIT/" target="_blank" rel="noopener noreferrer"><img alt="images" src={github} id="popup_card_github" /></a>
-                                <a href="https://github.com/GFG-CLUB-KIIT/GFG-KIIT-website" target="_blank" rel="noopener noreferrer" id="popup_card_project_link">Go to Website</a>
-                            </div>
-                            <div id="popup_card_project_title">GFG Website</div>
+                            <div id="popup_card_project_title">Todo App</div>
                             <div class="popup_bottom">
                             <lable class="popup_bottom_lang">Language Used:</lable> 
                                 <img alt="images" src={html} class="popup_bottom_lang_logo" title="HTML" />
                                 <img alt="images" src={css} class="popup_bottom_lang_logo" title="CSS" />
                                 <img alt="images" src={javascript} class="popup_bottom_lang_logo" title="JavaScript" /><br/>
-                            <lable class="popup_bottom_frame">Framework Used:</lable>
-                                <img alt="images" src={react} class="popup_bottom_lang_logo reactlogo" title="React" />
                             </div>
                         </div>
                         <div class="popup-context">

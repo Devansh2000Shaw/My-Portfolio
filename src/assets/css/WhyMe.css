@@ -1,35 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
-#Whyme
-{
+
+#Whyme {
     /* margin-bottom: 100px; */
-  /* background-image: url('../img/gif11.gif');
+    /* background-image: url('../img/gif11.gif');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; */
-  background-color: #000000;
-  scroll-behavior: smooth;
-  --dot-size: 1px;
-  --dot-space: 22.4px;
-  min-width: 95vw;
-  min-height: 100vh;
-  background: linear-gradient(90deg, #000 21px, transparent 1%) 50%, linear-gradient(#000 21px, transparent 1%) 50%, #5c5c5c;
-  background-size: auto, auto, auto;
-  background-size: var(--dot-space) var(--dot-space);
-  animation: floating 150s linear infinite;
+    background-color: #000000;
+    scroll-behavior: smooth;
+    --dot-size: 1px;
+    --dot-space: 22.4px;
+    min-width: 95vw;
+    min-height: 100vh;
+    background: linear-gradient(90deg, #000 21px, transparent 1%) 50%, linear-gradient(#000 21px, transparent 1%) 50%, #5c5c5c;
+    background-size: auto, auto, auto;
+    background-size: var(--dot-space) var(--dot-space);
+    animation: floating 150s linear infinite;
 }
 
 @keyframes floating {
     100% {
-      background-position: 50px 0,125px 25px;
+        background-position: 50px 0, 125px 25px;
     }
-  }
-
-body
-{
-    font-family: "Ubuntu","Uchen",sans-serif;
 }
-.why
-{
+
+body {
+    font-family: "Ubuntu", "Uchen", sans-serif;
+}
+
+.why {
     font-size: 48px;
     font-weight: bold;
     /* font-family: sans-serif; */
@@ -41,14 +40,15 @@ body
     padding-bottom: 40px;
     -webkit-text-fill-color: transparent;
 }
-.whyme
-{
+
+.whyme {
     justify-content: center;
     align-items: center;
     display: flex;
 }
-.whyme1 , .whyme2
-{
+
+.whyme1,
+.whyme2 {
     color: white;
     font-size: 20px;
     background-color: rgb(29, 28, 28);
@@ -62,7 +62,7 @@ body
     margin-bottom: 4%;
 }
 
-.whyme3{
+.whyme3 {
     color: white;
     font-size: 20px;
     background-color: rgb(29, 28, 28);
@@ -74,24 +74,23 @@ body
     padding-bottom: 30px;
     margin-bottom: 4%;
 }
-.whyme1:hover
-{
+
+.whyme1:hover {
     background-color: #EAA023;
     transition: 1s ease;
 }
-.whyme2:hover
-{
+
+.whyme2:hover {
     background-color: #E96E13;
     transition: 1s ease;
 }
-.whyme3:hover
-{
+
+.whyme3:hover {
     background-color: #24CAAC;
     transition: 1s ease;
 }
 
-.whyme-content
-{
+.whyme-content {
     margin-top: 15px;
     font-size: 16px;
     color: rgb(233, 231, 231);
@@ -99,8 +98,10 @@ body
 }
 
 @media screen and (max-width: 885px) {
-    .whyme1 , .whyme2, .whyme3
-    {
+
+    .whyme1,
+    .whyme2,
+    .whyme3 {
         margin-right: -7%;
         height: 260px;
         width: 317px;

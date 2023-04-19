@@ -1,49 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
-body{
-            background-color: black;
-        }
-        .myself
-        {
-            margin-top: -16px;
-            float: right;
-            height: 19.375em;
-            width: 14em;
-        }
-		.carousel-inner-intro{
-			height: 500px;
-			position: relative;
-			overflow: hidden;
-			width: 100%;
-		}
-		.intro_text{
-			font-family: "Ubuntu","Uchen",sans-serif;
-		}
-        .description
-        {
-            /* overflow: auto; */
-            height: 19.375em;
-            width: 30em;
-            padding: 50px;
-            line-height: 18px;
-            background-color: #EAA023;
-            color:black;
-            font-size: 16px;
-            text-align: left;
-            font-family: sans-serif;
-        }
-        @media screen and (max-width: 646px){
-            .description
-            {
-                overflow: auto;
-            }
-            .myself{
-                margin-left: 20px
-            }
-			.tours__text__desc{
-				margin-left: 12%;
-			}
-        }
-        /* .head
+
+body {
+	background-color: black;
+}
+
+.myself {
+	margin-top: -16px;
+	float: right;
+	height: 19.375em;
+	width: 14em;
+}
+
+.carousel-inner-intro {
+	height: 500px;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+}
+
+.intro_text {
+	font-family: "Ubuntu", "Uchen", sans-serif;
+}
+
+.description {
+	/* overflow: auto; */
+	height: 19.375em;
+	width: 30em;
+	padding: 50px;
+	line-height: 18px;
+	background-color: #EAA023;
+	color: black;
+	font-size: 16px;
+	text-align: left;
+	font-family: sans-serif;
+}
+
+@media screen and (max-width: 646px) {
+	.description {
+		overflow: auto;
+	}
+
+	.myself {
+		margin-left: 20px
+	}
+
+	.tours__text__desc {
+		margin-left: 12%;
+	}
+}
+
+/* .head
             {
                 margin-bottom: 80px;
                 text-align: center;
@@ -153,7 +159,6 @@ tours {
 	display: inline-block;
 	padding: 14px 25px 12px 30px;
 	background: #5c00ce;
-	float: right;
 }
 
 .tours__item__text .tours__text__desc {
@@ -204,6 +209,7 @@ tours {
 .tours__item__pic img {
 	min-width: 100%;
 }
+
 .primary-btn {
 	display: inline-block;
 	font-size: 15px;
@@ -221,35 +227,34 @@ tours {
 	color: white;
 }
 
-.primary-btn:hover{
+.primary-btn:hover {
 	-webkit-box-shadow: 0px 0px 20px 0px #EAA023;
-   -moz-box-shadow: 0px 0px 20px 0px #EAA023;
-   box-shadow: 0px 0px 20px 0px #EAA023;
-   transform: translateX(10px);
-   transition: all 0.6s ease-in-out;
+	-moz-box-shadow: 0px 0px 20px 0px #EAA023;
+	box-shadow: 0px 0px 20px 0px #EAA023;
+	transform: translateX(10px);
+	transition: all 0.6s ease-in-out;
 }
 
 
-#intro
-{
-  /* background-image: url('../img/gif25.gif');
+#intro {
+	/* background-image: url('../img/gif25.gif');
   background-size: cover;
   background-repeat: no-repeat; */
-  /* background-attachment: fixed; */
-  background-color: #000000;
-  scroll-behavior: smooth;
-  --dot-size: 1px;
-  --dot-space: 22.4px;
-  min-width: 95vw;
-  min-height: 100vh;
-  background: linear-gradient(90deg, #000 21px, transparent 1%) 50%, linear-gradient(#000 21px, transparent 1%) 50%, #5c5c5c;
-  background-size: auto, auto, auto;
-  background-size: var(--dot-space) var(--dot-space);
-  animation: floating 150s linear infinite;
+	/* background-attachment: fixed; */
+	background-color: #000000;
+	scroll-behavior: smooth;
+	--dot-size: 1px;
+	--dot-space: 22.4px;
+	min-width: 95vw;
+	min-height: 100vh;
+	background: linear-gradient(90deg, #000 21px, transparent 1%) 50%, linear-gradient(#000 21px, transparent 1%) 50%, #5c5c5c;
+	background-size: auto, auto, auto;
+	background-size: var(--dot-space) var(--dot-space);
+	animation: floating 150s linear infinite;
 }
 
 @keyframes floating {
-    100% {
-      background-position: 50px 0,125px 25px;
-    }
-  }
+	100% {
+		background-position: 50px 0, 125px 25px;
+	}
+}

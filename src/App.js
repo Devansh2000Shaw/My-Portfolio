@@ -13,20 +13,22 @@ import Tech from './components/Tech';
 import AnimatedCursor from "react-animated-cursor"
 
 function App() {
-  const {loading, setLoading} = useState(false);
+  const [loading, setLoading] = useState(false);
 
   useEffect( () => {
     setLoading(true)
     setTimeout( () => {
       setLoading(false)
-    }, 8000 )
+    }, 5000 )
   }, [])
 
   return (
     <div className="App">
       {
         loading ?
-          <CircleLoader size = {30} color = {'#24caac'} loading = {loading}/>
+        <div class = "loader">
+          <CircleLoader size = {30} color = {'#24caac'} loading = {loading} />
+        </div>
         :
         <div>
           <AnimatedCursor 

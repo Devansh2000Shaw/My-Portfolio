@@ -1,6 +1,7 @@
 import React from 'react';
 import '../assets/css/Navigation.css';
 
+window.onload = function() {
 document.addEventListener('DOMContentLoaded',function(event){
     var dataText = [ "MERN Developer.", "Programmer.", "Open source Contributor.", ""];
     function typeWriter(text, i, fnCallback) {
@@ -30,7 +31,7 @@ document.addEventListener('DOMContentLoaded',function(event){
 
     StartTextAnimation(0);
   });
-
+}
 function Navigation()
 {
     return(
@@ -52,7 +53,7 @@ function Navigation()
                 <div class = "content">
                     <p className = "Name" style = {{marginBottom: "10px"}}>Devansh Shaw</p>
                     {/* <p className = "Slogan" style = {{marginBottom: "0px"}}>I am Front End Developer.</p> */}
-                    <span style={{fontFamily: "cursive", fontSize: "20px"}}>I'm a </span> <h2 style={{fontFamily: "Ubuntu"}}>Frontend Web Developer</h2>
+                    <span style={{fontFamily: "cursive", fontSize: "20px"}}>I'm a </span> <h2 style={{fontFamily: "Ubuntu"}}>Full-Stack Web Developer</h2>
                     <br/>
                     <form action="#">
                     <input type = "submit" id = "submit" value = "Know More" href = "#intro"/>

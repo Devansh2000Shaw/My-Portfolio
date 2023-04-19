@@ -1,5 +1,4 @@
-#experiences
-{
+#experiences {
     background-color: #000000;
     scroll-behavior: smooth;
     --dot-size: 1px;
@@ -19,9 +18,9 @@
 
 @keyframes floating {
     100% {
-      background-position: 50px 0,125px 25px;
+        background-position: 50px 0, 125px 25px;
     }
-  }
+}
 
 .experience .timeline {
     position: relative;
@@ -75,20 +74,20 @@
 }
 
 .experience .timeline .timeline-item::before {
-  content: '';
-  position: absolute;
-  width: 0;
-  height: 0;
-  top: 46px;
-  right: 10px;
-  z-index: 1;
-  border: 10px solid;
-  border-color: transparent transparent transparent #dddddd;
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 46px;
+    right: 10px;
+    z-index: 1;
+    border: 10px solid;
+    border-color: transparent transparent transparent #dddddd;
 }
 
 .experience .timeline .timeline-item.right::before {
-  left: 10px;
-  border-color: transparent #dddddd transparent transparent;
+    left: 10px;
+    border-color: transparent #dddddd transparent transparent;
 }
 
 .experience .timeline .timeline-date {
@@ -116,7 +115,7 @@
 .experience .timeline .timeline-text {
     padding: 30px;
     /* background: rgb(29, 28, 28); */
-    background-color: hsla(0,0%,100%,.2);
+    background-color: hsla(0, 0%, 100%, .2);
     color: white;
     position: relative;
     border-right: 5px solid #dddddd;
@@ -155,27 +154,27 @@
         width: 100%;
         padding-left: 38px;
     }
-    
+
     .experience .timeline .timeline-item.left {
         padding-right: 0;
     }
-    
+
     .experience .timeline .timeline-item.right {
         left: 0%;
         padding-left: 38px;
     }
 
-    .experience .timeline .timeline-item.left::after, 
+    .experience .timeline .timeline-item.left::after,
     .experience .timeline .timeline-item.right::after {
         left: 0;
     }
-    
+
     .experience .timeline .timeline-item.left::before,
     .experience .timeline .timeline-item.right::before {
         left: 18px;
         border-color: transparent #dddddd transparent transparent;
     }
-    
+
     .experience .timeline .timeline-item.left .timeline-date,
     .experience .timeline .timeline-item.right .timeline-date {
         position: relative;
@@ -185,7 +184,7 @@
         text-align: left;
         margin-bottom: 10px;
     }
-    
+
     .experience .timeline .timeline-item.left .timeline-text,
     .experience .timeline .timeline-item.right .timeline-text {
         border-right: none;
@@ -193,31 +192,30 @@
     }
 }
 
-#experience
-{
+#experience {
     /* background-image: url('../img/gif14.gif');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; */
-  background-color: #000000;
-  scroll-behavior: smooth;
-  --dot-size: 1px;
-  --dot-space: 22.4px;
-  min-width: 95vw;
-  min-height: 100vh;
-  background: linear-gradient(90deg, #000 21px, transparent 1%) 50%, linear-gradient(#000 21px, transparent 1%) 50%, #5c5c5c;
-  background-size: auto, auto, auto;
-  background-size: var(--dot-space) var(--dot-space);
-  animation: floating 150s linear infinite;
+    background-color: #000000;
+    scroll-behavior: smooth;
+    --dot-size: 1px;
+    --dot-space: 22.4px;
+    min-width: 95vw;
+    min-height: 100vh;
+    background: linear-gradient(90deg, #000 21px, transparent 1%) 50%, linear-gradient(#000 21px, transparent 1%) 50%, #5c5c5c;
+    background-size: auto, auto, auto;
+    background-size: var(--dot-space) var(--dot-space);
+    animation: floating 150s linear infinite;
 }
 
 @keyframes floating {
     100% {
-      background-position: 50px 0,125px 25px;
+        background-position: 50px 0, 125px 25px;
     }
-  }
+}
 
-.timeline_logo{
+.timeline_logo {
     width: 80px;
     height: 80px;
     border: 7px solid #e9ecef;

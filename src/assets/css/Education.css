@@ -1,7 +1,7 @@
-.journey{
+.journey {
     float: left;
     padding: 10px 0px 80px 30px;
-    width:90vw;
+    width: 90vw;
     background-color: #000000;
     scroll-behavior: smooth;
     --dot-size: 1px;
@@ -16,28 +16,31 @@
 
 @keyframes floating {
     100% {
-      background-position: 50px 0,125px 25px;
+        background-position: 50px 0, 125px 25px;
     }
-  }
+}
 
-.journey_title{
+.journey_title {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 38px;
     font-weight: 600;
     padding-left: 10px;
-    border-left: 4px solid  #20c997;
+    border-left: 4px solid #20c997;
 }
-.journey_sub_division{
+
+.journey_sub_division {
     width: 100%;
     float: left;
 }
-.journey_sub_division_exp{
+
+.journey_sub_division_exp {
     width: 100%;
     float: left;
     margin-top: 50px;
 }
-.journey_sub_title{
+
+.journey_sub_title {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 48px;
@@ -45,25 +48,28 @@
     font-family: sans-serif;
     padding-left: 10px;
     margin: 30px 0px 20px 35px;
-    border-left: 4px solid  #24caac; 
+    border-left: 4px solid #24caac;
     background-image: linear-gradient(45deg, #f3ec78, #af4261);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 /* TIMELINE */
-.education_timeline{
+.education_timeline {
     width: 100px;
     float: left;
     margin-left: 180px;
 }
-.timeline_logo{
+
+.timeline_logo {
     width: 80px;
     height: 80px;
     border: 7px solid #e9ecef;
     border-radius: 50%;
     bottom: 0px;
 }
-.timeline_logo1{
+
+.timeline_logo1 {
     width: 80px;
     height: 80px;
     border: 7px solid #e9ecef;
@@ -71,7 +77,8 @@
     bottom: 0px;
     margin-top: 20px
 }
-.line{
+
+.line {
     background-color: white;
     height: 200px;
     width: 2px;
@@ -81,47 +88,55 @@
     left: 0;
     position: relative;
 }
+
 /* TIMELINE DETAILS */
-.timeline_detail_kiit{
+.timeline_detail_kiit {
     float: left;
     margin-top: 22px;
     margin-left: 20px;
 }
-.timeline_detail_vvrs{
+
+.timeline_detail_vvrs {
     float: left;
     margin-top: 100px;
     margin-left: 20px;
 }
-.timeline_detail_bps{
+
+.timeline_detail_bps {
     float: left;
     margin-top: 45px;
     margin-left: 20px;
     width: 70%;
 }
-.timeline_detail_sjv{
+
+.timeline_detail_sjv {
     float: left;
     margin-top: 105px;
     margin-left: 20px;
     width: 70%;
 }
-.timeline_detail_gbv{
+
+.timeline_detail_gbv {
     float: left;
     margin-top: 75px;
     margin-left: 20px;
     width: 70%;
 }
-.institute_title{
+
+.institute_title {
     font-size: 40px;
     font-weight: bold;
     color: white;
 }
-.institute_location{
+
+.institute_location {
     padding-top: 5px;
     font-size: 25px;
     font-weight: 100;
     color: white;
 }
-.education_timeline > li .timeline-image {
+
+.education_timeline>li .timeline-image {
     position: absolute;
     z-index: 100;
     left: 0;
@@ -133,144 +148,176 @@
     border: 7px solid #e9ecef;
     border-radius: 100%;
     background-color: #fed136;
-    }
-    .education_timeline > li .timeline-image h4 {
+}
+
+.education_timeline>li .timeline-image h4 {
     font-size: 10px;
     line-height: 14px;
     margin-top: 12px;
+}
+
+@media (max-width: 768px) {
+    .education_timeline {
+        margin-left: 10px;
     }
-    @media (max-width: 768px) {
-        .education_timeline{
-            margin-left: 10px;
-        }
+}
+
+@media (min-width: 768px) {
+    .education_timeline>li .timeline-image {
+        left: 50%;
+        width: 100px;
+        height: 100px;
+        margin-left: -50px;
     }
-    @media (min-width: 768px) {
-        .education_timeline > li .timeline-image {
-            left: 50%;
-            width: 100px;
-            height: 100px;
-            margin-left: -50px;
-        }
-        .education_timeline > li .timeline-image h4 {
-            font-size: 13px;
-            line-height: 18px;
-            margin-top: 16px;
-        }
+
+    .education_timeline>li .timeline-image h4 {
+        font-size: 13px;
+        line-height: 18px;
+        margin-top: 16px;
     }
-    @media (min-width: 992px) {
-        .education_timeline > li .timeline-image {
-            width: 150px;
-            height: 150px;
-            margin-left: -75px;
-        }
-        .education_timeline > li .timeline-image h4 {
-            font-size: 18px;
-            line-height: 26px;
-            margin-top: 30px;
-        }
+}
+
+@media (min-width: 992px) {
+    .education_timeline>li .timeline-image {
+        width: 150px;
+        height: 150px;
+        margin-left: -75px;
     }
-    @media (min-width: 1200px) {
-        .education_timeline > li .timeline-image {
-            width: 170px;
-            height: 170px;
-            margin-left: -85px;
-        }
-        .education_timeline > li .timeline-image h4 {
-            margin-top: 40px;
-        }
-        .education_timeline > li.timeline-inverted > .timeline-panel {
-            padding: 0 100px 20px 20px;
-        }
+
+    .education_timeline>li .timeline-image h4 {
+        font-size: 18px;
+        line-height: 26px;
+        margin-top: 30px;
     }
-.details{
+}
+
+@media (min-width: 1200px) {
+    .education_timeline>li .timeline-image {
+        width: 170px;
+        height: 170px;
+        margin-left: -85px;
+    }
+
+    .education_timeline>li .timeline-image h4 {
+        margin-top: 40px;
+    }
+
+    .education_timeline>li.timeline-inverted>.timeline-panel {
+        padding: 0 100px 20px 20px;
+    }
+}
+
+.details {
     padding: 10px 0px 0px 10px;
     list-style-type: circle;
     font-size: 18px;
     color: white;
 }
-@media screen and (max-width: 858px){
-    .line{
+
+@media screen and (max-width: 858px) {
+    .line {
         height: 250px;
         margin-left: 40px;
     }
-    .journey{
+
+    .journey {
         float: left;
-        width:100vw;
+        width: 100vw;
     }
-    .journey_sub_division_exp{
+
+    .journey_sub_division_exp {
         margin-left: 0px;
     }
-    .journey_sub_title{
+
+    .journey_sub_title {
         font-size: 35px;
         margin-bottom: 40px;
     }
-    .timeline_logo1{
+
+    .timeline_logo1 {
         margin-top: 10px
     }
-    .institute_title{
+
+    .institute_title {
         font-size: 20px;
         font-weight: bold;
     }
-    .institute_location{
+
+    .institute_location {
         font-size: 18px;
     }
-    .details{
+
+    .details {
         font-size: 16px;
     }
-    .timeline_detail_kiit{
+
+    .timeline_detail_kiit {
         margin-left: 0px;
         width: 70%;
     }
-    .timeline_detail_vvrs{
+
+    .timeline_detail_vvrs {
         margin-top: 85px;
         margin-left: 0px;
     }
-    .timeline_detail_bps{
+
+    .timeline_detail_bps {
         margin-top: 75px;
         margin-left: 0px;
     }
-    .timeline_detail_sjv{
+
+    .timeline_detail_sjv {
         margin-top: 150px;
         margin-left: 0px;
         width: 70%;
     }
-    .timeline_detail_gbv{
+
+    .timeline_detail_gbv {
         margin-top: 100px;
         margin-left: 0px;
         width: 70%;
     }
 }
-@media screen and (max-width: 450px){
-    .journey{
+
+@media screen and (max-width: 450px) {
+    .journey {
         float: left;
-        width:100vw;
+        width: 100vw;
     }
-    .institute_title{
+
+    .institute_title {
         font-size: 20px;
         font-weight: bold;
     }
-    .institute_location{
+
+    .institute_location {
         font-size: 18px;
     }
-    .details{
+
+    .details {
         font-size: 16px;
     }
-    .timeline_detail_kiit{
+
+    .timeline_detail_kiit {
         width: 60%;
     }
-    .timeline_detail_vvrs{
+
+    .timeline_detail_vvrs {
         margin-top: 75px;
         width: 60%;
     }
-    .timeline_detail_bps{
+
+    .timeline_detail_bps {
         margin-top: 40px;
         width: 60%;
     }
-    .timeline_detail_sjv{
+
+    .timeline_detail_sjv {
         margin-top: 100px;
         width: 60%;
     }
-    .timeline_detail_gbv{
+
+    .timeline_detail_gbv {
         margin-top: 20%;
         width: 60%;
     }
